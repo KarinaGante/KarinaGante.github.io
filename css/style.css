@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    font-family: 'Varela Round';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    background: #390d61;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 5vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 99;
+}
+
+header .menu {
+    width: 100%;
+    height: 3vh;
+    margin-top: 1vh;
+}
+
+header .icons a{
+    font-size: 1.5rem;
+    margin-right: 3%;
+    color: white;
+    transition: 0.6s ease;
+}
+
+header details>summary {
+    list-style-type: none;
+    outline: none;
+    cursor: pointer;
+}
+
+header details>summary::-webkit-details-marker {
+    display: none;
+}
+
+header details>summary::before {
+    content: '+ ';
+    color: #1dff8e;
+    font-size: 1.5rem;
+}
+
+header details[open]>summary::before {
+    content: '- ';
+    color: white;
+    font-size: 1.5rem;
+}
+
+header details[open]>summary {
+    margin-bottom: 0.5rem;
+}
+
+header details a{
+    color: white;
+    text-decoration: none;
+}
+
+header details a:hover{
+    color: #1dff8e;
+    text-decoration: none;
+}
+
+header .icons a:hover{
+    color: #1dff8e;
+}
+
+/* ==== INICIO =====*/
+#inicio .bloco{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(57,13,97,1) 50%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+#inicio .bloco h1{
+    margin-top: 5vh;
+    letter-spacing: 20px;
+    font-size: 2.6rem;
+    margin-bottom: 5vh;
+}
+
+
+#inicio .bloco h2{
+    letter-spacing: 25px;
+    font-size: 2rem;
+    margin-bottom: 5vh;
+}
+
+#inicio .bloco h3{
+    letter-spacing: 15px;
+    font-size: 1.2rem;
+}
+
+/* ==== Sobre =====*/
+#sobre .bloco{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(57,13,97,1) 50%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    color: white;
+}
+
+#sobre .bloco h1{
+    margin-top: 5vh;
+    font-size: 2.6rem;
+    margin-bottom: 5vh;
+}
+
+#sobre .bloco p{
+    width: 90%;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+#sobre .bloco p a{
+    color: #1dff8e;
+    text-decoration: underline;
+}
+
+#sobre .bloco p a:hover{
+    color: #1dff8e;
+    text-decoration: underline;
+}
+
+/* ==== Skills =====*/
+#skills .bloco{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(57,13,97,1) 50%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    color: white;
+}
+
+#skills .bloco h1{
+    margin-top: 5vh;
+    font-size: 2.6rem;
+}
+
+#skills .bloco h2{
+    margin-top: 5vh;
+    font-size: 2.6rem;
+}
+
+#skills .bloco .marginleft{
+    margin-left: 4vw;
+}
+
+#skills .bloco .card{
+    margin-top: 3vh;
+    width: 15%;
+    height: 20%;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    color: black;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#skills .bloco .card img{
+    width: 70%;
+}
+
+#skills .bloco .card2{
+    margin-top: 3vh;
+    width: 15%;
+    height: 20%;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    color: black;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#skills .bloco .card2 img{
+    width: 70%;
+}
+
+/* ==== projetos =====*/
+#projs .bloco{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(57,13,97,1) 50%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    color: white;
+}
+
+#projs .bloco .show{
+    margin-top: 9vh;
+    width: 85vw;
+    height: 85vh;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 11.5vw;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#piratefy{
+    background: url(../img/piratefy.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#iwant{
+    background: url(../img/iwant.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#projs .bloco .show h1{
+    margin-top: 5vh;
+    font-size: 2.6rem;
+}
+
+#projs .bloco .show p{
+    width: 80%;
+    font-size: 1.1rem;
+}
+
+#projs .bloco .show p a{
+    color: white;
+    text-decoration: underline;
+}
+
+#projs .bloco .show p a:hover{
+    color: white;
+}
+
+button{
+    background-color: transparent;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    outline: 2px solid white;
+    text-align: center;
+    transition: 0.4s ease;
+}
+
+#projs .bloco .show p button a{
+    color: white;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+button:hover{
+    color: #1dff8e;
+    outline: 2px solid #1dff8e;
+}
+
+#projs .bloco .show p button a:hover{
+    color: #1dff8e;
+    text-decoration: none;
+}
+
+/* ==== Contato =====*/
+#contato .bloco{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(57,13,97,1) 50%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    color: white;
+}
+
+#contato .bloco h1{
+    font-size: 2.6rem;
+    margin-bottom: 5vh;
+}
+
+#contato .bloco .input{
+    margin-bottom: 5%;
+    width: 85%;
+    height: 15%;
+    border: 8px solid transparent;
+    background-color: transparent;
+    color: white;
+    outline: 0;
+    border-bottom: 1px solid white;
+}
+
+#contato .bloco .textarea{
+    margin-top: 8%;
+    margin-bottom: 5%;
+    width: 85%;
+    height: 25%;
+    border: 8px solid transparent;
+    background-color: transparent;
+    color: white;
+    border: 8px solid transparent;
+    outline: 1px solid white;
+    border-radius: 4px;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.726);
+}
+
+/*===== celulares e tablets =====*/
+@media screen and (min-width: 481px){
+    header {
+        height: 8vh;
+    }
+
+    header .menu {
+        margin-top: 2vh;
+    }
+
+    header .icons a{
+        font-size: 2rem;
+        margin-right: 6%;
+    }
+    
+    #skills .bloco{
+        height: 125vh;
+    }
+
+    #skills .bloco h1{
+        margin-top: 6vh;
+        font-size: 2.4rem;
+    }
+    
+    #skills .bloco h2{
+        margin-top: 6vh;
+        font-size: 2.4rem;
+    }
+
+    #skills .bloco .card{
+        width: 25%;
+        height: 30%;
+    }
+    
+    #skills .bloco .card img{
+        width: 80%;
+    }
+    
+    #skills .bloco .card2{
+        width: 25%;
+        height: 30%;
+    }
+    
+    #skills .bloco .card2 img{
+        width: 80%;
+    }
+
+    #projs .bloco{
+        height: 115vh;
+    }
+}
+
+/*===== telas pequenas e notes =====*/
+@media screen and (min-width: 769px){
+    header {
+        height: 8vh;
+    }
+
+    header .menu {
+        margin-top: 2vh;
+    }
+
+    header .icons a{
+        font-size: 2rem;
+        margin-right: 6%;
+    }
+    
+    #skills .bloco{
+        height: 135vh;
+    }
+
+    #skills .bloco h1{
+        margin-top: 6vh;
+        font-size: 2.4rem;
+    }
+    
+    #skills .bloco h2{
+        margin-top: 6vh;
+        font-size: 2.4rem;
+    }
+
+    #skills .bloco .card{
+        width: 25%;
+        height: 30%;
+    }
+    
+    #skills .bloco .card img{
+        width: 80%;
+    }
+    
+    #skills .bloco .card2{
+        width: 25%;
+        height: 30%;
+    }
+    
+    #skills .bloco .card2 img{
+        width: 80%;
+    }
+
+    #projs .bloco{
+        height: 115vh;
+    }
+
+    #projs .bloco .show{
+        margin-left: 9.5vw;
+    }
+}
+
+/*===== telas grandes e desktops =====*/
+@media screen and (min-width: 1025px){
+    header {
+        height: 8vh;
+    }
+
+    header .menu {
+        margin-top: 2vh;
+    }
+
+    header .icons a{
+        font-size: 2rem;
+        margin-right: 6%;
+    }
+    
+    #skills .bloco{
+        height: 155vh;
+    }
+
+    #skills .bloco h1{
+        margin-top: 6vh;
+        font-size: 2.4rem;
+    }
+    
+    #skills .bloco h2{
+        margin-top: 6vh;
+        font-size: 2.4rem;
+    }
+
+    #skills .bloco .card{
+        width: 15%;
+        height: 20%;
+    }
+    
+    #skills .bloco .card img{
+        width: 70%;
+    }
+    
+    #skills .bloco .card2{
+        width: 15%;
+        height: 20%;
+    }
+    
+    #skills .bloco .card2 img{
+        width: 70%;
+    }
+
+    #projs .bloco{
+        height: 115vh;
+    }
+
+    #projs .bloco .show{
+        margin-left: 9.5vw;
+    }
+
+    #contato .bloco{
+        height: 115vh;
+    }
+
+    #contato .bloco h1{
+        margin-top: 5vh;
+    }
+}
