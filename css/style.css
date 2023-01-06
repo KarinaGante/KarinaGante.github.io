@@ -52,7 +52,7 @@ header details>summary::before {
 
 header details[open]>summary::before {
     content: '- ';
-    color: white;
+    color: #1dff8e;
     font-size: 1.5rem;
 }
 
