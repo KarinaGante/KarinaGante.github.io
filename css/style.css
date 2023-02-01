@@ -377,5 +377,13 @@ input, textarea {
     .footer p{
         margin-top: 14px;
         font-size: 0.8rem;
-    }    
+    }
+    
+    .about{
+        height: 155%;
+    }
+    
+    .projs{
+        height: 305%;
+    }
 }
