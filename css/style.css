@@ -389,7 +389,7 @@ footer{
     align-items: center;
     padding-top: 0.5vh;
     padding-bottom: 1vh;
-    font-size: 1.8vw;
+    font-size: 1.9vw;
     background: #29263c;
     background-position: center;
     color: #fff;        
@@ -399,9 +399,9 @@ footer{
 footer a{
     color: #61ffca;
     cursor: pointer;    
-    font-size: 1.2vw;     
+    font-size: 2vw;     
     transition: ease 0.4s; 
-    letter-spacing: 0.5vw;
+    letter-spacing: 0.2vw;
 }
 
 footer a:hover{
