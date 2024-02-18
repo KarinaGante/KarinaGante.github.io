@@ -1,1 +1,1 @@
-# KarinaGante.github.io
+# Repositório de deploy do Portfólio pessoal.
