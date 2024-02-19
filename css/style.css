@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:wght@500&family=Space+Grotesk&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -41,13 +40,19 @@ html, body {
     color: #61ffca;
     font-family: 'Space Grotesk';
     font-weight: 250;
-    font-size: 3vw;
+    font-size: 2vw;
+}
+
+@media (max-width: 1024px){
+    .intro h3{
+        font-size: 3vw;  
+    }
 }
 
 .intro h4 a{    
     color: #9d4afd;    
     text-shadow: -1px 1px 90px #9d4afd;
-    font-size: 3.2vw;    
+    font-size: 4vw;    
     margin: 0 4vw;   
     cursor: pointer;
     transition: ease 0.4s; 
@@ -82,7 +87,7 @@ html, body {
 
 .cit{
     color: #fff;
-    font-size: 2vw;  
+    font-size: 2.3vw;  
     font-family: 'Space Grotesk';
     font-weight: 500;
     padding-left: 2%;
@@ -93,7 +98,7 @@ html, body {
 
 .card{
     display: inline-block;
-    width: 60%;
+    width: 75%;
     height: 80%;
     background-image: url(../img/70.png);
     background-size: cover;
@@ -126,12 +131,24 @@ html, body {
     margin-bottom: 2%;
 }
 
+@media (min-width: 1024px){
+    .card img{
+        width: 75%;  
+    }
+}
+
 .card p{
     color: #fff;
     font-size: 2vw;
     display: inline-block;       
     font-family: 'Fredoka';
     font-weight: 350;
+}
+
+@media (min-width: 1024px){
+    .card p{
+        font-size: 1.5vw;  
+    }
 }
 
 .card a{
@@ -192,8 +209,14 @@ p i{
     background: #29263c;   
     font-family: 'Space Grotesk';
     font-weight: 400;     
-    font-size: 2.2vw;   
+    font-size: 2.4vw;   
     color: #fff;
+}
+
+@media (min-width: 1024px){
+    .card-about{
+        font-size: 1.5vw;  
+    }
 }
 
 .card-about a{
@@ -239,7 +262,7 @@ p i{
 
 .imp{
     color: #fff;
-    font-size: 2vw;  
+    font-size: 2.3vw;  
     font-family: 'Space Grotesk';
     margin-top: 4vh;
     margin-bottom: 4vh;
@@ -257,7 +280,7 @@ p i{
 }
 
 .btn{
-    width: 30vw;
+    width: 25vw;
     height: 5vw;
     text-align: center;
     text-transform: uppercase;
@@ -276,6 +299,12 @@ p i{
     -moz-box-shadow: 0px 11px 65px -19px #61ffca;
     box-shadow: 0px 11px 65px -19px #61ffca; 
     transition: ease 0.4s; 
+}
+
+@media (min-width: 1024px){
+    .btn{
+        width: 20vw;  
+    }
 }
 
 .btn:hover{
@@ -337,6 +366,12 @@ p i{
     transition: ease 0.4s; 
 }
 
+@media (min-width: 1024px){
+    .contact input, textarea{
+        width: 35vw;  
+    }
+}
+
 .contact input:hover, textarea:hover{    
     color: #61ffca;      
     border: 0.4vw solid #61ffca;
@@ -347,6 +382,12 @@ p i{
 
 .contact label{    
     font-size: 3vw;
+}
+
+@media (min-width: 1024px){
+    .contact label{
+        font-size: 1.8vw;  
+    }
 }
 
 .btn-form{
@@ -373,6 +414,12 @@ p i{
     transition: ease 0.4s; 
 }
 
+@media (min-width: 1024px){
+    .btn-form{ 
+        height: 7vh;
+    }
+}
+
 .btn-form:hover{
     color: #61ffca;
     text-shadow: -1px 1px 55px #61ffca;
@@ -388,20 +435,29 @@ footer{
     text-align: center;
     align-items: center;
     padding-top: 0.5vh;
-    padding-bottom: 1vh;
-    font-size: 1.9vw;
+    padding-bottom: 0.5vh;
     background: #29263c;
     background-position: center;
     color: #fff;        
     font-family: 'Space Grotesk', sans-serif;   
 }
 
+@media (min-width: 1024px){
+    footer{ 
+        font-size: 0.7vw;
+    }
+
+    footer a{
+        font-size: 0.1vw;
+    }
+}
+
 footer a{
     color: #61ffca;
     cursor: pointer;    
-    font-size: 2vw;     
+    font-size: 1.2vw;     
     transition: ease 0.4s; 
-    letter-spacing: 0.2vw;
+    letter-spacing: 0.5vw;
 }
 
 footer a:hover{
