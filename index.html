@@ -4,140 +4,334 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karina Gante</title>
+    
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.14.0/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
 
-    <link rel="icon" type="image/png" href="./img/favicon.png">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .decoration-line {
+        position: absolute;
+        bottom: -0.5vh;
+        left: 0;
+        width: 4vw;
+        height: 0.5vh;
+        background-color: #50fa7b;
+    }
+    </style>
 
-    <title>🌻 Karina Gante</title>
 </head>
 
-<body>
-    <section class="bg-1">
-        <div class="intro">
-            <h2>Olá,<br> eu sou a <span>Karina</span>.</h2>
-            <h3> Cibersegurança | Dados | Nuvem | Web </h3>
-                <h4>
-                    <a href="https://github.com/KarinaGante" target="_blank"><i class="fa-brands fa-github shine"></i></a>
-                    <a href="https://www.linkedin.com/in/karina-gante" target="_blank"><i class="fa-brands fa-linkedin shine"></i></a>
-                    <a href="https://www.instagram.com/karinovisk02" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                </h4>
+<body class="bg-gray-900 text-white font-mono">
+    <header class="bg-gray-800 px-4 py-6">
+        <h1 class="text-4xl text-pink-500 text-center" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="500">Karina Gante</h1>
+    </header>
+
+    <section id="sobre" class="py-16 px-4 max-w-7xl mx-auto bg-gray-900">
+        <h2 class="text-4xl mb-8 text-pink-500 relative">Sobre Mim
+            <span class="decoration-line" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="500" data-aos-delay="50"></span>
+        </h2>
+        <p class="text-lg mb-8 text-justify">
+            Recém formada em Ciências da Computação pelo Instituto Federal de São Paulo, já trabalhei com diversos projetos de desenvolvimento web + nuvem/infraestrutura
+            (AWS). </br>
+            Tenho afinidade com SQL e já realizei algumas análises de dados, além de ter interesse, eu também estudo sobre a área da segurança da informação/cybersecurity. </br>
+            Apaixonada por tecnologia, também ja desenvolvi alguns joguinhos com GDscript. </br>
+            Como uma boa entusiasta de jogos, gosto de desafios e valorizo o aprendizado contínuo. Eu aprecio os pequenos detalhes.</p>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-md" data-aos="zoom-out-down" data-aos-duration="2000" data-aos-delay="1500">
+            <p class="text-center">"Sempre entregue mais do que o esperado." - Larry Page</p>
         </div>
     </section>
 
-    <section class="projects">
-        <div class="main">
-            <h6 class="hr-lines"> Meus Projetos </h6>
-            <div class="cit"> “A única maneira de fazer um excelente trabalho é amar o que você faz." - Steve Jobs </div>
-            
-            <div class="card">
-                <h3>Relatório Financeiro (2024)</h3>
-                <img src="./img/data.png" alt="relatorio">
-                <p><i class="bi bi-flower3"></i> Extração de dados utilizando consultas e fórmulas em planilhas.</p><br>
-                <p><i class="bi bi-flower3"></i> Integração com Google Planilhas, utilizado como fonte de dados.</p><br>
-                <p><i class="bi bi-flower3"></i> Relatório feito com o uso da ferramenta Google Looker Studio.</p><br>
-                <p><i class="bi bi-flower3"></i> Interativo e contém a funcionalidade de filtragem dos dados.</p><br>
-                <p><i class="bi bi-flower3"></i> Veja detalhes <a href="https://lookerstudio.google.com/reporting/d6446c3b-3fb0-4f8d-92b6-d9a22bcabb3c/page/KzYnD" target="_blank">aqui</a>.</p>
+    <section id="projetos" class="py-16 px-4 bg-gray-800">
+        <h2 class="text-4xl mb-8 text-purple-400 text-center">Meus Projetos</h2>
+        <div class="max-w-7xl mx-auto">
+            <div class="bg-gray-700 p-6 md:p-8 rounded-lg shadow-md mb-12 flex flex-col md:flex-row-reverse" data-aos="fade-right" data-aos-duration="3000" data-aos-offset="500">
+                <img src="./img/fearless-knight.gif" alt="Fearless Knight"
+                    class="w-full md:w-2/3 rounded-lg mb-4 md:mb-0 md:ml-6">
+                <div class="md:w-1/3 md:mr-6">
+                    <h3 class="text-2xl mb-4 mt-0 text-white">Fearless Knight</h3>
+                    <p class="text-white mb-4 text-justify">
+                        Jogo desenvolvido em GDscript, utilizando o Godot Engine.</br>
+                        Inspirado no "Vampire Survivor", conta com diversas mecânicas como: Animated Sprites, Inimigos com IA, Mob Sapawn/Drops, Recuperação de Vida, Coleta
+                        de Itens, Diferentes Raridades, Dano de Ataque, Barra de Progressão de Vida, Câmera Top-Down, Animação de Morte etc.</p>
+                    <div class="flex flex-wrap">
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center"> 2024 </span>
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <svg class="text-purple-400 mr-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128">
+                                <path fill="currentColor" d="M52.203 9.61c-5.3 1.18-10.543 2.816-15.457 5.292c.113 4.34.395 8.496.961 12.72c-1.906 1.222-3.914 2.273-5.695 3.702c-1.813 1.395-3.66 2.727-5.301 4.36a102 102 0 0 0-10.316-6.004C12.543 33.824 8.94 38.297 6 43.305c2.313 3.629 4.793 7.273 7.086 10.117v30.723q.087 0 .168.007L32.09 85.97a2.03 2.03 0 0 1 1.828 1.875l.582 8.316l16.426 1.172l1.133-7.672a2.03 2.03 0 0 1 2.007-1.734h19.868a2.03 2.03 0 0 1 2.007 1.734l1.133 7.672l16.43-1.172l.578-8.316a2.03 2.03 0 0 1 1.828-1.875l18.828-1.817q.082-.007.168-.007V81.69h.008V53.42c2.652-3.335 5.16-7.019 7.086-10.116c-2.941-5.008-6.543-9.48-10.395-13.625a102 102 0 0 0-10.316 6.004c-1.64-1.633-3.488-2.965-5.3-4.36c-1.782-1.43-3.79-2.48-5.696-3.703c.566-4.223.848-8.379.96-12.719c-4.913-2.476-10.155-4.113-15.456-5.293c-2.117 3.559-4.055 7.41-5.738 11.176c-2-.332-4.008-.457-6.02-.48V20.3l-.039.004c-.016.002-.023-.004-.04-.004v.004c-2.01.023-4.019.148-6.019.48c-1.683-3.765-3.62-7.617-5.738-11.176zM37.301 54.55c6.27 0 11.351 5.079 11.351 11.345c0 6.27-5.082 11.351-11.351 11.351c-6.266 0-11.348-5.082-11.348-11.351c0-6.266 5.082-11.344 11.348-11.344zm53.398 0c6.266 0 11.348 5.079 11.348 11.345c0 6.27-5.082 11.351-11.348 11.351c-6.27 0-11.351-5.082-11.351-11.351c0-6.266 5.082-11.344 11.351-11.344zM64 61.189c2.016 0 3.656 1.488 3.656 3.32v10.449c0 1.832-1.64 3.32-3.656 3.32c-2.02 0-3.652-1.488-3.652-3.32v-10.45c0-1.831 1.632-3.32 3.652-3.32zm0 0" />
+                                <path fill="currentColor" d="m98.008 89.84l-.582 8.36a2.024 2.024 0 0 1-1.88 1.878l-20.062 1.434c-.046.004-.097.004-.144.004c-.996 0-1.86-.73-2.004-1.73l-1.152-7.806H55.816l-1.152 7.805a2.026 2.026 0 0 1-2.148 1.727l-20.063-1.434a2.024 2.024 0 0 1-1.879-1.879l-.582-8.36l-16.937-1.632c.008 1.82.03 3.816.03 4.211c0 17.887 22.692 26.484 50.88 26.582h.07c28.188-.098 50.871-8.695 50.871-26.582c0-.402.024-2.39.031-4.211zM45.922 66.566a7.53 7.53 0 0 1-7.535 7.532a7.534 7.534 0 0 1-7.535-7.532a7.534 7.534 0 0 1 7.535-7.53a7.53 7.53 0 0 1 7.535 7.53m36.156 0a7.53 7.53 0 0 0 7.531 7.532a7.531 7.531 0 1 0 0-15.063a7.53 7.53 0 0 0-7.53 7.531" />
+                            </svg> Godot
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <svg class="text-purple-400 mr-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20">
+                                <path fill="currentColor" d="M2 6.5A2.5 2.5 0 0 1 4.5 4h11A2.5 2.5 0 0 1 18 6.5v7a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 2 13.5zM9.5 6h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1m3 2h-8a.5.5 0 0 0 0 1h8a.5.5 0 0 0 0-1M5 11a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1z" />
+                            </svg> GUI/UX/UI
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <a href="https://github.com/KarinaGante/BootcampSantander" target="_blank"
+                                class="text-white hover:text-purple-400">
+                                <i class="devicon-github-original"></i> Repositório
+                            </a>
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <a href="https://nookaa.itch.io/fearless-knight" target="_blank"
+                                class="text-white hover:text-purple-400">
+                                <i class="fa-solid fa-gamepad"></i> Jogar
+                            </a>
+                        </span>
+
+                    </div>
+                </div>
             </div>
-            
-            <div class="card">
-                <h3>iWant 2.0 (2023)</h3>
-                <img src="./img/iwant2.0.png" alt="iwant2.0">
-                <p><i class="bi bi-flower3"></i> Desenvolvido em uma plataforma de programação em blocos chamada <a href="https://thunkable.com/" target="_blank">Thunkable</a>.</p><br>
-                <p><i class="bi bi-flower3"></i> Para dispositivos móveis.</p><br>
-                <p><i class="bi bi-flower3"></i> App desenvolvido para auxiliar portadores do <a href="https://www.google.com/search?q=TEA&oq=TEA&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiDARixAxiABDINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDIKCAUQABixAxiABDINCAYQABiDARixAxiABDIKCAcQABixAxiABDINCAgQABiDARixAxiABDIMCAkQABhDGIAEGIoF0gEHNzAzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" target="_blank">TEA</a> na comunicação.</p><br>
-                <p><i class="bi bi-flower3"></i> Utilizado no Trabalho de Conclusão de Curso. </p><br>
-                <p><i class="bi bi-flower3"></i> Artigo aprovado e publicado no 14º CONICT.</p><br>
-                <p><i class="bi bi-flower3"></i> Veja <a href="https://drive.google.com/file/d/1vQhTAcYwK0DWaMCB6ysXQIkLuWN2OJvX/view?usp=sharing" target="_blank">aqui</a> as especificações do projeto. </p><br>
-                <p><i class="bi bi-flower3"></i> Publicação do <a href="https://ocs.ifsp.edu.br/conict/xivconict/paper/view/9678/3214" target="_blank">artigo</a>.</p>
+
+            <div class="bg-gray-700 p-6 md:p-8 rounded-lg shadow-md mb-12 flex flex-col md:flex-row" data-aos="fade-left" data-aos-duration="3000" data-aos-offset="500">
+                <img src="./img/vendas-mensais.png" alt="Vendas Mensais" class="w-full md:w-2/3 rounded-lg mb-4 md:mb-0 md:order-1 md:mr-6">
+                <div class="md:w-1/3 md:order-2">
+                    <h3 class="text-2xl mb-4 mt-0 text-white">Vendas Mensais</h3>
+                    <p class="text-white mb-4 text-justify">
+                        Relatório feito no Power BI, alimentado pela base de dados em Excel.</br>
+                        Visando analisar o valor das vendas mensais por ano, buscando por um padrão em momentos sazonais para auxílio da tomada de decisão no intuito de
+                        aumentar as vendas nos meses que vendem menos.</p>
+                    <div class="flex flex-wrap">
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center"> 2024 </span>
+                        
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <svg class="text-purple-400 mr-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M10 12a1 1 0 0 1 1 1v11H4a1 1 0 0 1-1-1V13a1 1 0 0 1 1-1zm-2-.5V7a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v17h-4.5V13a1.5 1.5 0 0 0-1.5-1.5zm5-6V1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v22a1 1 0 0 1-1 1h-3.5V7A1.5 1.5 0 0 0 15 5.5z" />
+                            </svg> Power BI
+
+                        </span>
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <svg class="text-purple-400 mr-2" xmlns=" http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48">
+                                <g fill="none">
+                                    <path d="M0 0h48v48H0z" />
+                                    <path fill="currentColor" fill-rule="evenodd" d="M29 6v8h13v2H29v7h13V8c0-1.105-.836-2-1.867-2zm0 19h13v7H29zm0 9h13v6c0 1.105-.836 2-1.867 2H29zm-2 0v8H15.867C14.836 42 14 41.105 14 40v-6zm0-20H14V8c0-1.105.836-2 1.867-2H27zm-3.948 2v7H27v-7zm0 9v7H27v-7zM6 17a1 1 0 0 1 1-1h13.158a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm3.607 2h2.26l1.834 3.754L15.64 19h2.112l-2.91 5l2.976 5H15.59l-1.999-3.93l-1.99 3.93H9.34l3.024-5.018z" clip-rule="evenodd" />
+                                </g>
+                            </svg> Excel
+                        </span>
+                    </div>
+                </div>
             </div>
-            
-            <div class="card">
-                <h3>Piratefy (2022)</h3>
-                <img src="./img/piratefy.png" alt="piratefy">
-                <p><i class="bi bi-flower3"></i> Player de música web inspirado no "Spotify".</p><br>
-                <p><i class="bi bi-flower3"></i> Desenvolvido do zero utilizando HTML, CSS, php, JavaScript, MySQL e jQuery.</p><br>
-                <p><i class="bi bi-flower3"></i> Colocado em operação na AWS durante período acadêmico.</p><br>
-                <p><i class="bi bi-flower3"></i> Veja uma demonstração <a href="https://youtu.be/sHlifoNr7E4" target="_blank">aqui</a>.</p>
+
+            <div class="bg-gray-700 p-6 md:p-8 rounded-lg shadow-md mb-12 flex flex-col md:flex-row-reverse"  data-aos="fade-right" data-aos-duration="3000" data-aos-offset="500">
+                <img src="./img/car dashboard.png" alt="Car Dashboard" class="w-full md:w-2/3 rounded-lg mb-4 md:mb-0 md:ml-6">
+                <div class="md:w-1/3 md:mr-6">
+                    <h3 class="text-2xl mb-4 mt-0 text-white">Car Dashboard</h3>
+                    <p class="text-white mb-4 text-justify">
+                        Relatório feito no Power BI, alimentado pela base de dados em Excel.</br>
+                        Visando analisar a quatidade de carros vendidos filtrados por região para auxílio da tomada de decisão no intuito de aumentar quantidade de vendas 
+                        nas regiões que vendem menos.</p>
+                    <div class="flex flex-wrap">
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center"> 2024 </span>
+                        
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <svg class="text-purple-400 mr-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M10 12a1 1 0 0 1 1 1v11H4a1 1 0 0 1-1-1V13a1 1 0 0 1 1-1zm-2-.5V7a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v17h-4.5V13a1.5 1.5 0 0 0-1.5-1.5zm5-6V1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v22a1 1 0 0 1-1 1h-3.5V7A1.5 1.5 0 0 0 15 5.5z" />
+                            </svg> Power BI
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <svg class="text-purple-400 mr-2" xmlns=" http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48">
+                                <g fill="none">
+                                    <path d="M0 0h48v48H0z" />
+                                    <path fill="currentColor" fill-rule="evenodd" d="M29 6v8h13v2H29v7h13V8c0-1.105-.836-2-1.867-2zm0 19h13v7H29zm0 9h13v6c0 1.105-.836 2-1.867 2H29zm-2 0v8H15.867C14.836 42 14 41.105 14 40v-6zm0-20H14V8c0-1.105.836-2 1.867-2H27zm-3.948 2v7H27v-7zm0 9v7H27v-7zM6 17a1 1 0 0 1 1-1h13.158a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm3.607 2h2.26l1.834 3.754L15.64 19h2.112l-2.91 5l2.976 5H15.59l-1.999-3.93l-1.99 3.93H9.34l3.024-5.018z" clip-rule="evenodd" />                                    
+                                </g>
+                            </svg> Excel
+                        </span>
+                    </div>
+                </div>
             </div>
-            
-            <div class="card">
-                <h3>iWant (2021)</h3>
-                <img src="./img/iwant.png" alt="">
-                <p><i class="bi bi-flower3"></i> Projeto inicial para auxiliar portadores do <a href="https://www.google.com/search?q=TEA&oq=TEA&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiDARixAxiABDINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDIKCAUQABixAxiABDINCAYQABiDARixAxiABDIKCAcQABixAxiABDINCAgQABiDARixAxiABDIMCAkQABhDGIAEGIoF0gEHNzAzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" target="_blank">TEA</a> na comunicação.</p><br>
-                <p><i class="bi bi-flower3"></i> Desenvolvido em uma plataforma de programação para jogos 2D chamada <a href="https://gdevelop.io/pt-br" target="_blank">GDevelop</a>.</p><br>
-                <p><i class="bi bi-flower3"></i> Para computadores (desktop).</p><br>
-                <p><i class="bi bi-flower3"></i> Veja uma demonstração <a href="https://youtu.be/gVsZOk-ds_c" target="_blank">aqui</a>.</p>
+
+            <div class="bg-gray-700 p-6 md:p-8 rounded-lg shadow-md mb-12 flex flex-col md:flex-row" data-aos="fade-right" data-aos-duration="3000" data-aos-offset="500">
+                <img src="./img/relatorio-financeiro.png" alt="Relatório Financeiro" class="w-full md:w-2/3 rounded-lg mb-4 md:mb-0 md:order-1 md:mr-6">
+                <div class="md:w-1/3 md:order-2">
+                    <h3 class="text-2xl mb-4 mt-0 text-white">Relatório Financeiro</h3>
+                    <p class="text-white mb-4 text-justify">
+                        Relatório feito no Looker Studio (antigo Google Data Studio), alimentado pela base de dados do Google Planilhas.</br>
+                        Visando analisar o número de vendas nas filiais filtradas por região para auxílio da tomada de decisão no intuito de aumentar o faturamento médio
+                        da empresa fictícia.</p>
+                    <div class="flex flex-wrap">
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center"> 2024 </span>
+                        
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <svg class="text-purple-400 mr-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M11.948 0A2.1 2.1 0 0 0 9.85 2.104a2.1 2.1 0 0 0 .356 1.166l.895-.896a.884.884 0 1 1 .565.564l-.895.895A2.096 2.096 0 0 0 13.119.359A2.1 2.1 0 0 0 11.949 0m-.836 6.113a3.26 3.26 0 0 0-.652-1.965L9.295 5.31a1.67 1.67 0 0 1-.317 2.012l.632 1.545a3.28 3.28 0 0 0 1.503-2.754m-3.25 1.666h-.03A1.67 1.67 0 0 1 7.83 4.44a1.67 1.67 0 0 1 .92.275L9.9 3.564a3.28 3.28 0 0 0-4.133 5.094a3.28 3.28 0 0 0 2.728.666zm4.129 1.336c-.728 0-1.452.106-2.15.315l.922 2.252a5.02 5.02 0 1 1-1.127.435l-.91-2.244a7.44 7.44 0 0 0-3.41 9.956v.001a7.44 7.44 0 0 0 9.957 3.41h.001a7.44 7.44 0 0 0 3.412-9.957A7.44 7.44 0 0 0 12 9.113h-.008z" />
+                            </svg> Looker
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <svg class="text-purple-400 mr-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M11.318 12.545H7.91v-1.909h3.41v1.91zM14.728 0v6h6zm1.363 10.636h-3.41v1.91h3.41zm0 3.273h-3.41v1.91h3.41zM20.727 6.5v15.864c0 .904-.732 1.636-1.636 1.636H4.909a1.636 1.636 0 0 1-1.636-1.636V1.636C3.273.732 4.005 0 4.909 0h9.318v6.5zm-3.273 2.773H6.545v7.909h10.91v-7.91zm-6.136 4.636H7.91v1.91h3.41v-1.91z" />
+                            </svg> Sheets
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <a href="https://lookerstudio.google.com/reporting/d6446c3b-3fb0-4f8d-92b6-d9a22bcabb3c/page/KzYnD" target="_blank" class="text-white hover:text-purple-400">
+                                <i class="fa-solid fa-chart-simple"></i> Relatório
+                            </a>
+                        </span>
+                    </div>
+                </div>
             </div>
+
+            <div class="bg-gray-700 p-6 md:p-8 rounded-lg shadow-md mb-12 flex flex-col md:flex-row-reverse" data-aos="fade-left" data-aos-duration="3000" data-aos-offset="500">
+                <img src="./img/iwant2.0.png" alt="iWant 2.0" class="w-full md:w-2/3 rounded-lg mb-4 md:mb-0 md:ml-6">
+                <div class="md:w-1/3 md:mr-6">
+                    <h3 class="text-2xl mb-4 mt-0 text-white">iWant 2.0</h3>
+                    <p class="text-white mb-4 text-justify">
+                        Desenvolvido para auxiliar portadores do Transtorno do Espectro Autista na comunicação em uma plataforma de programação em blocos chamada Thunkable
+                        durante o Trabalho de Conclusão de Curso.</br>
+                        Artigo aprovado, publicado e apresentado no 14º Congresso de Inovação, Ciência e Tecnologia, também apresentado na Feira de Ciência e Mostra 
+                        Tecnológica e Empreendedorismo de Salto.</p>
+                    <div class="flex flex-wrap">
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center"> 2023 </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <i class="fa-solid fa-worm text-purple-400 mr-2"></i> Thunkable
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <svg class="text-purple-400 mr-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 15 15">
+                                <path fill="currentColor" d="m2.015 5.621l1 4a.5.5 0 0 0 .901.156l.584-.876l.584.876a.5.5 0 0 0 .901-.156l1-4l-.97-.242l-.726 2.903l-.373-.56a.5.5 0 0 0-.832 0l-.373.56l-.726-2.903z" />
+                                <path fill="currentColor" fill-rule="evenodd" d="M3.5 0A1.5 1.5 0 0 0 2 1.5V3h-.5A1.5 1.5 0 0 0 0 4.5v6A1.5 1.5 0 0 0 1.5 12H2v1.5A1.5 1.5 0 0 0 3.5 15h10a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 13.5 0zm-2 4a.5.5 0 0 0-.5.5v6a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 .5-.5v-6a.5.5 0 0 0-.5-.5z" clip-rule="evenodd" />
+                            </svg> Word
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <a href="https://ocs.ifsp.edu.br/conict/xivconict/paper/view/9678/3214" target="_blank" class="text-white hover:text-purple-400">
+                                <i class="fa-solid fa-newspaper"></i> Artigo
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gray-700 p-6 md:p-8 rounded-lg shadow-md mb-12 flex flex-col md:flex-row" data-aos="fade-right" data-aos-duration="3000" data-aos-offset="500">
+                <img src="./img/piratefy.png" alt="Piratefy" class="w-full md:w-2/3 rounded-lg mb-4 md:mb-0 md:order-1 md:mr-6">
+                <div class="md:w-1/3 md:order-2">
+                    <h3 class="text-2xl mb-4 mt-0 text-white">Piratefy</h3>
+                    <p class="text-white mb-4 text-justify">
+                        Player de música web inspirado no "Spotify".</br>
+                        Desenvolvido do zero utilizando HTML, CSS, php, JavaScript, MySQL e jQuery.</br>
+                        Colocado em operação na AWS (EC2 e Beanstalk) + banco de dados em nuvem (RDS) durante período acadêmico.</p>
+                    <div class="flex flex-wrap">
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center"> 2022 </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <i class="devicon-html5-plain text-purple-400 mr-2"></i> HTML
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <i class="devicon-css3-plain text-purple-400 mr-2"></i> CSS
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <i class="devicon-php-plain text-purple-400 mr-2"></i> php
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <i class="devicon-javascript-plain text-purple-400 mr-2"></i> JavaScript
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <svg class="text-purple-400 mr-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="m24.129 23.412l-.508-.484a6.66 6.66 0 0 0-.809-.891l-.005-.004q-.448-.407-.931-.774q-.387-.266-1.064-.641a1.6 1.6 0 0 1-.818-.824l-.004-.01l-.048-.024c.212-.021.406-.06.592-.115l-.023.006l.57-.157c.236-.074.509-.122.792-.133h.006c.298-.012.579-.06.847-.139l-.025.006q.194-.048.399-.109t.351-.109v-.169q-.145-.217-.351-.496a2.561 2.561 0 0 0-.443-.468l-.005-.004q-.629-.556-1.303-1.076a15.783 15.783 0 0 0-1.311-.916l-.068-.04a4.983 4.983 0 0 0-.825-.435l-.034-.012q-.448-.182-.883-.399a1.638 1.638 0 0 0-.327-.119l-.011-.002a.516.516 0 0 1-.29-.169l-.001-.001a2.999 2.999 0 0 1-.355-.609l-.008-.02q-.145-.339-.314-.651q-.363-.702-.702-1.427t-.651-1.452q-.217-.484-.399-.967a5.395 5.395 0 0 0-.461-.942l.013.023a17.366 17.366 0 0 0-1.331-1.961l.028.038a14.57 14.57 0 0 0-1.459-1.59l-.008-.007a17.619 17.619 0 0 0-1.632-1.356l-.049-.035q-.896-.651-1.96-1.282a3.7 3.7 0 0 0-.965-.393l-.026-.006l-1.113-.278l-.629-.048q-.314-.024-.629-.024a1.68 1.68 0 0 1-.387-.279a3.581 3.581 0 0 0-.353-.295l-.01-.007a11.686 11.686 0 0 0-2.043-.93L2.071.18A1.355 1.355 0 0 0 .9.096L.909.093a1.36 1.36 0 0 0-.795.84l-.003.01a1.515 1.515 0 0 0 .232 1.549l-.002-.003q.544.725.834 1.14q.217.291.448.605c.141.188.266.403.367.63l.008.021c.056.119.105.261.141.407l.003.016q.048.206.121.448q.217.556.411 1.14c.141.425.297.785.478 1.128l-.019-.04q.145.266.291.52T3.738 9a.868.868 0 0 0 .241.242l.003.002a.406.406 0 0 1 .169.313v.001a1.326 1.326 0 0 0-.217.586l-.001.006a4.227 4.227 0 0 1-.153.695l.008-.03a7.103 7.103 0 0 0-.351 2.231c0 .258.013.512.04.763l-.003-.031c.06.958.349 1.838.812 2.6l-.014-.025c.197.295.408.552.641.787a.914.914 0 0 0 1.106.203l-.005.002a.926.926 0 0 0 .617-.827v-.002c.048-.474.12-.898.219-1.312l-.013.067a.595.595 0 0 0 .038-.211l-.002-.045v.002q-.012-.109.133-.206v.048q.145.339.302.677t.326.677c.295.449.608.841.952 1.202l-.003-.003a7.74 7.74 0 0 0 1.127 1.001l.022.015c.212.162.398.337.566.528l.004.004c.158.186.347.339.56.454l.01.005v-.024h.048a.461.461 0 0 0-.18-.205l-.002-.001a1.829 1.829 0 0 1-.211-.136l.005.003q-.217-.217-.448-.484t-.423-.508q-.508-.702-.969-1.467t-.871-1.555q-.194-.387-.375-.798t-.351-.798a.997.997 0 0 1-.096-.334v-.005a.318.318 0 0 0-.168-.265l-.002-.001a2.947 2.947 0 0 1-.408.545l.001-.001a1.974 1.974 0 0 0-.382.58l-.005.013a4.272 4.272 0 0 0-.289 1.154l-.002.019q-.072.641-.145 1.318l-.048.024l-.024.024a.855.855 0 0 1-.59-.443l-.002-.005q-.182-.351-.326-.69a6.448 6.448 0 0 1-.423-2.144v-.009a6.218 6.218 0 0 1 .286-2.318l-.012.044q.072-.266.314-.896t.097-.871a.876.876 0 0 0-.265-.41l-.001-.001a3.31 3.31 0 0 1-.335-.335l-.003-.004q-.169-.244-.326-.52t-.278-.544a11.408 11.408 0 0 1-.474-1.353l-.022-.089a10.174 10.174 0 0 0-.546-1.503l.026.064a3.32 3.32 0 0 0-.39-.669l.006.008q-.244-.326-.436-.617q-.244-.314-.484-.605a3.414 3.414 0 0 1-.426-.657l-.009-.02a1.638 1.638 0 0 1-.119-.327l-.002-.011a.406.406 0 0 1 .049-.34l-.001.002a.303.303 0 0 1 .073-.145a.308.308 0 0 1 .143-.072h.002a.55.55 0 0 1 .536-.035l-.003-.001c.219.062.396.124.569.195l-.036-.013q.459.194.847.375c.298.142.552.292.792.459l-.018-.012q.194.121.387.266t.411.291h.339q.387 0 .822.037c.293.023.564.078.822.164l-.024-.007c.481.143.894.312 1.286.515l-.041-.019q.593.302 1.125.641c.589.367 1.098.743 1.577 1.154l-.017-.014c.5.428.954.867 1.38 1.331l.01.012c.416.454.813.947 1.176 1.464l.031.047c.334.472.671 1.018.974 1.584l.042.085a4.6 4.6 0 0 1 .234.536l.011.033q.097.278.217.57q.266.605.57 1.221t.57 1.198l.532 1.161c.187.406.396.756.639 1.079l-.011-.015c.203.217.474.369.778.422l.008.001c.368.092.678.196.978.319l-.047-.017c.143.065.327.134.516.195l.04.011c.212.065.396.151.565.259l-.009-.005c.327.183.604.363.868.559l-.021-.015q.411.302.822.57q.194.145.651.423t.484.52a11.202 11.202 0 0 0-1.834.087l.056-.006a5.959 5.959 0 0 0-1.479.39l.04-.014a2.556 2.556 0 0 1-.388.129l-.019.004a.312.312 0 0 0-.266.277v.001c.061.076.11.164.143.26l.002.006c.034.102.075.19.125.272l-.003-.006c.119.211.247.393.391.561l-.004-.005c.141.174.3.325.476.454l.007.005q.244.194.508.399c.161.126.343.25.532.362l.024.013c.284.174.614.34.958.479l.046.016c.374.15.695.324.993.531l-.016-.011q.291.169.58.375t.556.399c.073.072.137.152.191.239l.003.005a.573.573 0 0 0 .36.193h.003v-.048a.516.516 0 0 1-.184-.267l-.001-.004a.95.95 0 0 0-.112-.273l.002.004zM5.553 4.207q-.194 0-.363.012a1.285 1.285 0 0 0-.323.063l.009-.003v.024h.048q.097.145.244.326t.266.351l.387.798l.048-.024a.735.735 0 0 0 .252-.321l.002-.005c.052-.139.082-.301.082-.469l-.001-.054v.003a.504.504 0 0 1-.108-.154l-.001-.003l-.081-.182a.52.52 0 0 0-.214-.192l-.003-.001a.93.93 0 0 1-.244-.169" />
+                            </svg> MySQL
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <i class="devicon-jquery-plain text-purple-400 mr-2"></i> jQuery
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <svg class="text-purple-400 mr-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M7.64 10.38c0 .25.02.45.07.62c.05.12.12.28.21.46c.04.04.05.1.05.15c0 .07-.04.13-.13.2l-.42.28c-.06.04-.12.06-.17.06c-.07 0-.13-.04-.2-.1c-.09-.1-.17-.2-.24-.31c-.06-.11-.13-.24-.2-.39c-.52.61-1.17.92-1.96.92c-.56 0-1-.16-1.33-.48c-.32-.32-.49-.75-.49-1.29c0-.55.2-1 .6-1.36c.41-.34.95-.52 1.63-.52c.23 0 .44.02.71.06c.23.03.5.08.76.14v-.48c0-.51-.1-.84-.31-1.07c-.22-.21-.57-.3-1.08-.3c-.24 0-.48.03-.72.08c-.25.06-.49.13-.72.23c-.11.04-.2.07-.23.08c-.05.02-.08.02-.11.02c-.09 0-.14-.06-.14-.2v-.33c0-.1.01-.18.05-.23q.045-.075.18-.12c.24-.14.51-.24.84-.32a4 4 0 0 1 1.04-.13q1.185 0 1.74.54c.37.36.55.91.55 1.64v2.15zm-2.7 1.02c.22 0 .44-.04.68-.12s.45-.23.63-.43c.11-.13.19-.27.25-.43c0-.16.05-.35.05-.58v-.27c-.2-.07-.4-.07-.62-.12a7 7 0 0 0-.62-.04c-.45 0-.77.09-.99.27s-.32.43-.32.76c0 .32.07.56.24.71c.16.17.39.25.7.25m5.34.71a.6.6 0 0 1-.28-.06c-.03-.05-.08-.14-.12-.26L8.32 6.65c-.04-.15-.06-.22-.06-.27c0-.11.05-.17.16-.17h.65c.13 0 .22.02.26.07c.06.04.1.13.14.26l1.11 4.4l1.04-4.4c.03-.13.07-.22.13-.26c.05-.04.14-.07.25-.07h.55c.12 0 .21.02.26.07c.05.04.1.13.13.26L14 11l1.14-4.46c.04-.13.09-.22.13-.26c.06-.04.14-.07.26-.07h.62c.11 0 .17.06.17.17c0 .03-.01.07-.02.12c0 0-.02.08-.04.15l-1.61 5.14c-.04.14-.08.21-.15.26c-.04.04-.13.07-.24.07h-.57c-.13 0-.19-.02-.27-.07a.45.45 0 0 1-.12-.26L12.27 7.5l-1.03 4.28q-.045.195-.12.27a.5.5 0 0 1-.27.06zm8.55.18c-.33 0-.7-.04-1.03-.12s-.59-.17-.76-.26a.5.5 0 0 1-.21-.19a.4.4 0 0 1-.04-.18v-.34c0-.14.05-.2.15-.2h.12c.04 0 .1.05.17.08c.22.1.47.18.73.23c.27.05.54.08.79.08c.42 0 .75-.07.97-.22c.23-.17.35-.36.35-.63c0-.19-.07-.34-.18-.47c-.12-.12-.35-.24-.67-.34l-.97-.3c-.48-.16-.84-.38-1.06-.68a1.58 1.58 0 0 1-.33-.97c0-.28.06-.52.18-.73c.12-.22.28-.4.46-.55c.22-.15.44-.26.71-.34q.39-.12.84-.12q.21 0 .45.03c.14.02.28.05.42.07c.14.04.26.07.38.11s.2.08.28.12c.09.05.16.1.2.16s.06.13.06.22v.32q0 .21-.15.21c-.05 0-.14-.03-.26-.08c-.37-.17-.8-.26-1.27-.26c-.38 0-.66.06-.89.19c-.2.12-.31.32-.31.59c0 .19.07.35.2.47c.13.13.38.25.73.37l.95.3c.48.14.82.36 1.03.64q.3.405.3.93c0 .28-.06.54-.17.77c-.12.22-.28.42-.5.58c-.19.17-.44.29-.72.38s-.62.13-.95.13m1.25 3.24C17.89 17.14 14.71 18 12 18c-3.85 0-7.3-1.42-9.91-3.77c-.21-.19-.02-.44.23-.29c2.82 1.63 6.29 2.62 9.89 2.62c2.43 0 5.1-.5 7.55-1.56c.37-.15.68.26.32.53M21 14.5c-.29-.37-1.86-.18-2.57-.1c-.21.03-.24-.16-.05-.3c1.25-.87 3.31-.6 3.54-.33c.24.3-.06 2.36-1.23 3.34c-.19.15-.36.07-.28-.11c.27-.68.86-2.16.59-2.5" />
+                            </svg> AWS
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <a href="https://github.com/KarinaGante/Piratefy-public" target="_blank" class="text-white hover:text-purple-400">
+                                <i class="devicon-github-original"></i> Repositório
+                            </a>
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <a href="https://youtu.be/sHlifoNr7E4" target="_blank" class="text-white hover:text-purple-400">
+                                <i class="fa-solid fa-play"></i> Demonstração
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gray-700 p-6 md:p-8 rounded-lg shadow-md mb-12 flex flex-col md:flex-row-reverse" data-aos="fade-left" data-aos-duration="3000" data-aos-offset="500">
+                <img src="./img/iwant.png" alt="iWant" class="w-full md:w-2/3 rounded-lg mb-4 md:mb-0 md:ml-6">
+                <div class="md:w-1/3 md:mr-6">
+                    <h3 class="text-2xl mb-4 mt-0 text-white">iWant</h3>
+                    <p class="text-white mb-4 text-justify">
+                        Projeto inicial (antecessor do iWant 2.0) para auxiliar portadores do Transtorno do Espectro Autista na comunicação em uma plataforma de 
+                        desenvolvimento de jogos 2D chamada GDevelop.</p>
+                    <div class="flex flex-wrap">
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center"> 2021 </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <i class="fa-solid fa-code text-purple-400 mr-2"></i> GDevelop
+                        </span>
+
+                        <span class="bg-gray-600 text-white px-4 py-2 rounded-full mr-2 mb-2 flex items-center">
+                            <a href="https://youtu.be/gVsZOk-ds_c" target="_blank" class="text-white hover:text-purple-400">
+                                <i class="fa-solid fa-play"></i> Demonstração
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <section class="about">
-        <h6> Sobre Mim </h6>
-        <div class="card-about">
-            
-            <div class="card-about-left">
-                <p>Eu sou a Karina, entusiasta da tecnologia e recém-graduada em Ciência da Computação pelo <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LMrLLkgyqzQ2YLRSNaiwNElOMzW2NDdKSTQ2NjZLszKoSE5NMk5JMzKwSDJJMjVONPHiyEwrLlAozikBAFFnEr8&q=ifsp+slt&oq=ifsp+sl&gs_lcrp=EgZjaHJvbWUqEAgBEC4YrwEYxwEYgAQYjgUyBggAEEUYOTIQCAEQLhivARjHARiABBiOBTIPCAIQLhgKGK8BGMcBGIAEMgoIAxAAGAoYFhgeMgoIBBAAGA8YFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhge0gEIMjQwN2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank">IFSP</a>.</p>
-                <p>Desde 2020, explorei várias áreas, incluindo desenvolvimento web. Durante o período acadêmico, destaco a publicação de um artigo em um congresso, apresentando um projeto dedicado a auxiliar crianças autistas na comunicação.
-                    Você pode ver mais detalhes <a href="https://ocs.ifsp.edu.br/conict/xivconict/paper/view/9678/3214" target="_blank">aqui</a>.</p>
-                <p>Tenho familiaridade com AWS e já coloquei projetos em operação, garantindo disponibilidade e eficiência. Minhas características fundamentais incluem ser detalhista e persistente, influenciando profundamente a maneira como me organizo em um momento de desenvolvimento de soluções.</p>
-            </div>
-            
-            <div class="card-about-mid">
-                <center>
-                    <h4>
-                        <a href="https://github.com/KarinaGante" target="_blank"><i class="fa-brands fa-github shine"></i></a>
-                        <a href="https://www.linkedin.com/in/karina-gante" target="_blank"><i class="fa-brands fa-linkedin shine"></i></a>
-                        <a href="https://www.instagram.com/karinovisk02" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    </h4>
-                </center>
-            </div>
-            
-            <div class="card-about-right">
-                <p>Além disso, sou movida por uma ambição constante de aprendizado, sempre à procura de maneiras de me superar e enfrentar novos desafios.</p>
-                <p>Tenho afinidade com dados (SQL, Excel, Python etc), e estou aprofundando ainda mais meus conhecimentos, explorando novas tecnologias e ferramentas.</p>
-                <p>Atualmente, estou imersa no estudo da Segurança Cibernética, buscando aprimorar minhas habilidades e contribuir para um ambiente digital mais seguro.</p>
-            </div>
+
+    <section id="contato" class="py-16 px-4 max-w-7xl mx-auto bg-gray-900">
+        <h2 class="text-4xl mb-8 text-pink-500 relative"> Contato
+            <span class="decoration-line" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="500" data-aos-delay="50"></span>
+        </h2>
+        <p class="text-lg mb-8"> Sinta-se a vontade para entrar em contato comigo em qualquer uma das redes, estou aberta e à disposição.</p>
+        <div class="flex items-center justify-center space-x-6" data-aos="zoom-in-right" data-aos-duration="500" data-aos-delay="1000">
+            <a href="mailto:karina.g@aluno.ifsp.edu.br" class="text-white hover:text-purple-400">
+                <span class="mdi mdi-gmail mdi-48px"></span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/karina-gante" target="_blank" class="text-white hover:text-purple-400" data-aos="zoom-in-right" data-aos-duration="500" data-aos-delay="1700">
+                <span class="mdi mdi-linkedin mdi-48px"></span>
+            </a>
+
+            <a href="https://github.com/KarinaGante" target="_blank" class="text-white hover:text-purple-400" data-aos="zoom-in-right" data-aos-duration="500" data-aos-delay="2400">
+                <span class="mdi mdi-github mdi-48px"></span>
+            </a>
         </div>
-        
-        <div class="imp">
-            A frase mais importante que me disseram foi: <br> "Dizem que um <span>sorriso</span> salva, então <span>nunca</span> saberemos <span>quantas pessoas você já salvou</span>."
-        </div>
-        
-        <div class="btn-about">
-            <a href="https://www.linkedin.com/in/karina-gante" target="_blank"><button class="btn">Currículo</button></a>
-            <a href="#contact"><button class="btn">Contato</button></a>
+    </br>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-md" data-aos="zoom-out-up" data-aos-duration="2000" data-aos-delay="500">
+            <p class="text-center">
+                "Dizem que um sorriso salva, então nunca saberemos quantas pessoas você já salvou." - Frase mais importante já me dita.
+            </p>
         </div>
     </section>
 
-    <section id="contact" class="bg">
-        <div class="contact">
-            <h1>Eu adoraria saber sobre você!</h1>
-            
-            <form action="https://formsubmit.co/b0b1a9cce7b7947208e2181c44b5e1e1" method="post">
-                <input type="hidden" name="_subject" value="Vi seu portfolio">
-                <input type="hidden" name="_captcha" value="false">
-                <label>Qual é o seu nome?</label><br>
-                <input type="text" name="Nome" placeholder="Nome" required><br>
-
-                <label>Qual é o seu melhor e-mail?</label><br>
-                <input type="email" name="email" placeholder="e-mail" required><br>
-
-                <label>Digite abaixo a sua mensagem:</label><br>
-                <textarea name="Mensagem" cols="30" rows="10" placeholder="Escreva aqui..." required></textarea><br>
-
-                <button type="submit" class="third btn-form">Enviar</button>
-            </form>
-            
-        </div>
-    </section>
-
-    <footer>
-        Obrigada pela visita! 😊<br>
-        Feito com 💜 por Karina
+    <footer class="bg-gray-600 text-gray-200 text-center py-6">
+        <p>&copy; 2024 Feito com 💜 por Karina</p>
     </footer>
-
-    <script src="https://kit.fontawesome.com/87cab692b3.js" crossorigin="anonymous"></script>
 </body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
