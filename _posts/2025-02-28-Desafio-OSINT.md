@@ -153,7 +153,7 @@ Now that we’ve gathered some personal data, the first flag is hidden inside a 
 
 ![/assets/img/tryhackme/desafioOSINT/flag.png](/assets/img/tryhackme/desafioOSINT/flag.png) 
 
-## 🏁 Task 4 - Final Flag
+## Task 4 - Final Flag
 
 <p style="text-align: justify;">
 Continue collecting more data from the user and find the last flag on the user's personal page.
