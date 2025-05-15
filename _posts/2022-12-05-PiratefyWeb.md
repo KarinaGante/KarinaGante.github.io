@@ -24,6 +24,6 @@ The system is entirely deployed on Amazon Web Services (AWS), utilizing services
 Designed as an academic project, Piratefy replicates key features of modern music streaming platforms, emphasizing responsive design, intuitive user experience (UX), and seamless integration with cloud infrastructure. This project demonstrates real-world skills in full-stack development, cloud computing, and music tech innovation.
 </p>
 
-# Watch a Demo
+## Watch a Demo
 
 [https://youtu.be/sHlifoNr7E4](https://youtu.be/sHlifoNr7E4)
