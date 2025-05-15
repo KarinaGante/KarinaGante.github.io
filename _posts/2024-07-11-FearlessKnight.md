@@ -28,10 +28,10 @@ The gameplay is designed to offer players a captivating, action-packed experienc
 This project showcases the full potential of the Godot Engine and the versatility of GDscript in creating 2D games with complex and interactive mechanics, making it a great example for both beginner and advanced developers looking to explore Godot’s capabilities.
 </p>
 
-<h2>You Can Play Fearless Knight Now!</h2>
+## You Can Play Fearless Knight Now!
 
 [https://nookaa.itch.io/fearless-knight](https://nookaa.itch.io/fearless-knight)
 
-<h3>Check Out the Project Repository</h3>
+## Check Out the Project Repository
 
 [https://github.com/KarinaGante/BootcampSantander](https://github.com/KarinaGante/BootcampSantander)
