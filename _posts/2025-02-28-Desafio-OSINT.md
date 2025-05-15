@@ -1,6 +1,7 @@
 ---
 
 title: 'TryHackMe: Desafio OSINT'
+comments: true
 author: Karina
 categories: [TryHackMe, OSINT Challenge, OSINT Tools, ExifTool, Capture The Flag, Cybersecurity Training, GitHub OSINT, Social Media OSINT, Facebook Investigation, Red Team Tactics, Offensive Security, Ethical Hacking, CTF Walkthrough, Digital Footprint, Online Reconnaissance, Beginner CTF Guide, TryHackMe Rooms, Kai Nola Sato, nolasatokai]
 tags: [tryhackme, tryhackme osint challenge, osint tools, exiftool tutorial, capture the flag, ctf walkthrough, github osint, social media osint, facebook osint, red team, offensive security, ethical hacking, online footprint, digital reconnaissance, beginner ctf, open source intelligence, kai nola sato, nolasatokai, wappalyzer]
