@@ -26,12 +26,12 @@ Throughout the challenge, participants will extract metadata, perform reverse im
 Whether you're preparing for a cybersecurity career, studying for OSINT certifications, or just love solving online puzzles, this room is a great way to boost your reconnaissance skills and learn how to track someone online using only publicly available data.
 </p>
 
-## 🔗 Access room here: 
+## Access room here: 
 
 👉 [https://tryhackme.com/room/desafioosint](https://tryhackme.com/room/desafioosint)
 
 
-## 📸 Task 1 - OSINT: Image
+## Task 1 - OSINT: Image
 
 <p style="text-align: justify;">
 The challenge starts with an image. Your mission: extract metadata and find clues that reveal the photo's location.
@@ -85,7 +85,7 @@ Drop the image on Google:
 > _🇧🇷 This challenge is in **Portuguese**, so remember to translate and interpret clues accordingly._
 
 
-## 📱 Task 2 - OSINT: Social Media
+## Task 2 - OSINT: Social Media
 
 <p style="text-align: justify;">
 Now that you have the username and full name, start your social media investigation. Use platforms like Facebook, Instagram, X (Twitter), and LinkedIn to track down personal details. 
@@ -128,7 +128,7 @@ GitHub can be a goldmine for OSINT. Check commits and profile settings to uncove
 
 ![/assets/img/tryhackme/desafioOSINT/email.png](/assets/img/tryhackme/desafioOSINT/email.png)
 
-## 🚩 Task 3 - First Flag: Welcome to the CSSDC OSINT CTF
+## Task 3 - First Flag: Welcome to the CSSDC OSINT CTF
 
 <p style="text-align: justify;">
 Now that you have several user data, look for the first flag.
