@@ -23,7 +23,7 @@ iWant 2.0 is an assistive app for autistic users, built with Thunkable and featu
 
 ## iWant 2.0
 
-<p align="justify">iWant 2.0 is an assistive communication tool designed specifically to support individuals with Autism Spectrum Disorder (ASD). Developed as part of a university capstone project, the app was created using Thunkable, a block-based programming platform that enables the development of customized, interactive mobile applications to facilitate non-verbal communication and promote digital inclusion for autistic individuals. </p>
+<p align="justify">iWant 2.0 is an assistive communication tool designed specifically to support individuals with Autism Spectrum Disorder (ASD). Developed as part of a university capstone project, the app was created using Thunkable, a block-based programming platform that enables the development of customized, interactive mobile applications to facilitate non-verbal communication and promote digital inclusion for autistic individuals.</p>
 
 <p align="justify">This innovative assistive technology project was officially accepted, published, and presented at the 14th Innovation, Science and Technology Congress (CONICT). Additionally, iWant 2.0 was exposed at IFCIÊNCIA — the Science, Technology, and Entrepreneurship Fair held in Salto — further validating its relevance as a valuable initiative for accessibility and inclusive education.</p>
 

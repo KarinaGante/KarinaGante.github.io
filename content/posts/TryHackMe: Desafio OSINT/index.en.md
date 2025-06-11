@@ -25,7 +25,7 @@ Walkthrough of TryHackMe’s OSINT Challenge, tracing a digital footprint using 
 
 ### Full Walkthrough & Guide
 
-<p align="justify">This is a complete walkthrough of the OSINT Challenge hosted on TryHackMe, a popular cybersecurity learning platform. This open-source intelligence (OSINT) room challenges users to trace a fictional character’s digital footprint, starting from a single image. </p>
+<p align="justify">This is a complete walkthrough of the OSINT Challenge hosted on TryHackMe, a popular cybersecurity learning platform. This open-source intelligence (OSINT) room challenges users to trace a fictional character’s digital footprint, starting from a single image.</p>
 
 <p align="justify">Throughout the challenge, you'll extract metadata, perform reverse image searches, investigate social media activity, and explore GitHub repositories to uncover hidden flags—one of which is cleverly embedded in an interactive element on a personal blog. Perfect for cybersecurity newbies and digital investigators, this hands-on Capture The Flag (CTF) provides OSINT training using real-world techniques.</p>
 
