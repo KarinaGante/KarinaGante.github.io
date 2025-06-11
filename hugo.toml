@@ -50,7 +50,7 @@ defaultContentLanguage = "en"
     [languages.pt-br.params]
       dateFormat = "02/01/2006"
       [languages.pt-br.params.sponsor]
-        bio = "Se este post foi útil para você, considere compartilhá-lo 💜"
+        bio = "Se este post foi útil para você, considere compartilhar 💜"
         link = ""
         custom = ""
 
