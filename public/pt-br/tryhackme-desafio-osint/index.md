@@ -11,7 +11,7 @@ Guia do desafio OSINT do TryHackMe, rastreando uma pegada digital usando técnic
 
 ### Guia completo
 
-<p align="justify">Este é um passo a passo completo do Desafio OSINT hospedado no TryHackMe, uma popular plataforma de aprendizado em segurança cibernética. Esta sala de inteligência de código aberto (OSINT) desafia os usuários a rastrear a pegada digital de um personagem fictício, a partir de uma única imagem. </p>
+<p align="justify">Este é um passo a passo completo do Desafio OSINT hospedado no TryHackMe, uma popular plataforma de aprendizado em segurança cibernética. Esta sala de inteligência de código aberto (OSINT) desafia os usuários a rastrear a pegada digital de um personagem fictício, a partir de uma única imagem.</p>
 
 <p align="justify">Ao longo do desafio, você irá extrair metadados, realizar buscas reversas de imagens, investigar atividades em mídias sociais e explorar repositórios do GitHub para descobrir sinalizadores ocultos — um dos quais está habilmente incorporado em um elemento interativo em um blog pessoal. Perfeito para iniciantes em segurança cibernética e investigadores digitais, este CTF (Capture The Flag) prático oferece treinamento OSINT usando técnicas do mundo real.</p>
 

@@ -10,7 +10,7 @@ AAC app built with GDevelop to aid communication for autistic users.
 
 <p align="justify">iWant is the initial project and precursor to the <a href="karinagante.github.io/iwant2.0/" target="_blank">iWant 2.0</a> system, developed to support children and adults with Autism Spectrum Disorder (ASD) in improving both verbal and non-verbal communication.</p>
 
-<p align="justify">The application was created using GDevelop, a free and open-source 2D game development platform, designed to provide accessible, interactive tools for fostering communication and engagement. </p>
+<p align="justify">The application was created using GDevelop, a free and open-source 2D game development platform, designed to provide accessible, interactive tools for fostering communication and engagement.</p>
 
 <p align="justify">This project leverages Augmentative and Alternative Communication (AAC) concepts to facilitate interaction between autistic individuals and their families, educators, and therapists. It features an interactive, playful, and accessible interface to promote communication in a fun and engaging way.</p>
 
