@@ -23,7 +23,7 @@ Fearless Knight é um jogo de ação 2D feito com Godot durante o Bootcamp Santa
 
 ## Fearless Knight
 
-<p align="justify">Este jogo, desenvolvido com a Godot Engine e programado em GDscript, é inspirado no popular "Vampire Survivors". Ele combina mecânicas dinâmicas e emocionantes, oferecendo uma experiência envolvente para fãs de jogos de ação e sobrevivência.</p>
+<p align="justify">Este jogo, desenvolvido com a Godot Engine e programado em GDscript, é inspirado no popular "Vampire Survivors". Ele combina mecânicas dinâmicas e emocionantes, oferecendo uma experiência envolvente para fãs de jogos de ação e sobrevivência. </p>
 
 <p align="justify">Apresentando uma variedade de elementos de jogabilidade, como Sprites Animados, IA (Inteligência Artificial) Inimiga, Geração de Criaturas, Drops de Itens, Recuperação de Vida, Itens Colecionáveis ​​com Raridades Variadas, Dano de Ataque, Barra de Progressão de Vida, Visão de Câmera de Cima e Animação de Morte, este jogo se destaca como um desafio imersivo e estratégico.</p>
 

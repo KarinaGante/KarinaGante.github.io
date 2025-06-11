@@ -23,7 +23,7 @@ Fearless Knight is a 2D action game made with Godot during the 2024 Santander Bo
 
 ## Fearless Knight
 
-<p align="justify">This game, developed using the Godot Engine and programmed in GDscript, is inspired by the popular "Vampire Survivors." It combines dynamic and exciting mechanics, offering an engaging experience for fans of action and survival games.</p>
+<p align="justify">This game, developed using the Godot Engine and programmed in GDscript, is inspired by the popular "Vampire Survivors." It combines dynamic and exciting mechanics, offering an engaging experience for fans of action and survival games. </p>
 
 <p align="justify">Featuring a variety of gameplay elements such as Animated Sprites, Enemy AI (Artificial Intelligence), Mob Spawns, Item Drops, Health Recovery, Collectible Items with Various Rarities, Attack Damage, Health Progression Bar, Top-Down Camera View, and Death Animation, this game stands out as an immersive and strategic challenge.</p>
 

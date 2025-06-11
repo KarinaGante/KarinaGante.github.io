@@ -23,7 +23,7 @@ Aplicativo AAC desenvolvido com GDevelop para auxiliar a comunicação de usuár
 
 ## iWant
 
-<p align="justify">iWant é o projeto inicial e precursor do sistema <a href="karinagante.github.io/pt-br/iwant2.0/" target="_blank">iWant 2.0</a>, desenvolvido para auxiliar crianças e adultos com Transtorno do Espectro Autista (TEA) a aprimorar a comunicação verbal e não verbal.</p>
+<p align="justify">iWant é o projeto inicial e precursor do sistema <a href="karinagante.github.io/pt-br/iwant2.0/" target="_blank">iWant 2.0</a>, desenvolvido para auxiliar crianças e adultos com Transtorno do Espectro Autista (TEA) a aprimorar a comunicação verbal e não verbal. </p>
 
 <p align="justify">O aplicativo foi criado utilizando o GDevelop, uma plataforma de desenvolvimento de jogos 2D gratuita e de código aberto, projetada para fornecer ferramentas acessíveis e interativas para promover a comunicação e o engajamento.</p>
 
