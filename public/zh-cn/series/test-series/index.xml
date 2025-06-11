@@ -1,0 +1,7 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>测试系列 - 系列 - Karina Gante</title>
+        <link>http://localhost:1313/zh-cn/series/test-series/</link>
+        <description>测试系列 - 系列 - Karina Gante</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-BR</language><atom:link href="http://localhost:1313/zh-cn/series/test-series/" rel="self" type="application/rss+xml" /></channel>
+</rss>
