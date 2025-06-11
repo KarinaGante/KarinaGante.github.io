@@ -1,9 +1,6 @@
 #!/bin/bash
 
-# Caminho até a worktree da gh-pages
 WORKTREE_DIR="public"
-
-# Vai pro diretório da worktree
 cd "$WORKTREE_DIR" || exit 1
 
 # Verifica se há mudanças antes de continuar
@@ -12,15 +9,14 @@ if git diff --quiet && git diff --cached --quiet; then
   exit 0
 fi
 
-# Conta o número de commits como build #
-BUILD_NUM=$(git rev-list --count HEAD)
+# Busca o último número de build pela mensagem de commit "blog build #X"
+LAST_BUILD_NUM=$(git log -1 --grep="blog build #" --pretty=format:"%s" | grep -oE '[0-9]+' || echo 0)
 
-# Adiciona e commita
+# Incrementa para o próximo build
+NEXT_BUILD_NUM=$((LAST_BUILD_NUM + 1))
+
 git add .
-git commit -m "blog build #$((BUILD_NUM + 1))"
-
-# Push
+git commit -m "blog build #$NEXT_BUILD_NUM"
 git push origin gh-pages
 
-# Volta pra raiz
 cd -
