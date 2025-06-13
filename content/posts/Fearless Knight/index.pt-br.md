@@ -5,7 +5,7 @@ date: 2024-07-11T21:29:01+08:00
 draft: false
 authors: ["Karina"]
 description: "Fearless Knight é um jogo de ação 2D feito com Godot durante o Bootcamp Santander 2024."
-featuredImage: "/images/fearlessKnight.gif"
+featuredImage: "/images/fearlessKnight/fearlessKnight.gif"
 
 tags: ["Godot Engine", "GDscript", "jogo 2D", "Bootcamp Santander 2024", "jogo de ação"]
 categories: ["Desenvolvimento de jogos"]

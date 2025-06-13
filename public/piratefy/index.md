@@ -9,7 +9,7 @@ Piratefy is a Spotify-like web app built with web tech and hosted on AWS.
 
 ## Piratefy
 
-<p align="justify">Piratefy is a fully functional web-based music streaming platform inspired by Spotify, developed from scratch using core web technologies including HTML, CSS, PHP, JavaScript, jQuery, and a MySQL database.</p>
+<p align="justify">Piratefy is a fully functional web-based music streaming platform inspired by Spotify, developed from scratch using core web technologies including HTML, CSS, PHP, JavaScript, jQuery, and a MySQL database. </p>
 
 <p align="justify">The system was entirely deployed on Amazon Web Services (AWS), utilizing services such as EC2 and Elastic Beanstalk for scalable cloud hosting, and Amazon RDS for robust and secure cloud-based database management.</p>
 
