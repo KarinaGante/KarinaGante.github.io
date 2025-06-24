@@ -1,7 +1,7 @@
 # TryHackMe: OSINT Challenge
 
 
-Walkthrough of TryHackMe’s OSINT Challenge, tracing a digital footprint using real-world OSINT techniques.
+Write Up of TryHackMe’s OSINT Challenge, tracing a digital footprint using real-world OSINT techniques.
 
 <!--more-->
 
@@ -9,7 +9,7 @@ Walkthrough of TryHackMe’s OSINT Challenge, tracing a digital footprint using 
 
 ## TryHackMe: OSINT Challenge
 
-### Full Walkthrough & Guide
+### Full Write Up & Guide
 
 <p align="justify">This is a complete walkthrough of the OSINT Challenge hosted on TryHackMe, a popular cybersecurity learning platform. This open-source intelligence (OSINT) room challenges users to trace a fictional character’s digital footprint, starting from a single image. </p>
 
