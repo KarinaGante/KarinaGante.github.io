@@ -4,18 +4,18 @@ title: "TryHackMe: OSINT Challenge"
 date: 2025-02-28T21:29:01+08:00
 draft: false
 authors: ["Karina"]
-description: "Walkthrough of TryHackMe’s OSINT Challenge, tracing a digital footprint using real-world OSINT techniques."
+description: "Write Up of TryHackMe’s OSINT Challenge, tracing a digital footprint using real-world OSINT techniques."
 featuredImage: "/images/TryHackMe: Desafio OSINT/osint.png"
 
 tags: ["TryHackMe", "OSINT", "Capture The Flag", "cybersecurity", "digital forensics"]
-categories: ["CTF Walkthroughs"]
+categories: ["CTF Write Ups"]
 lightgallery: true
 license: '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 toc:
   auto: false
 ---
 
-Walkthrough of TryHackMe’s OSINT Challenge, tracing a digital footprint using real-world OSINT techniques.
+Write Up of TryHackMe’s OSINT Challenge, tracing a digital footprint using real-world OSINT techniques.
 
 <!--more-->
 
@@ -23,7 +23,7 @@ Walkthrough of TryHackMe’s OSINT Challenge, tracing a digital footprint using 
 
 ## TryHackMe: OSINT Challenge
 
-### Full Walkthrough & Guide
+### Full Write Up & Guide
 
 <p align="justify">This is a complete walkthrough of the OSINT Challenge hosted on TryHackMe, a popular cybersecurity learning platform. This open-source intelligence (OSINT) room challenges users to trace a fictional character’s digital footprint, starting from a single image. </p>
 
