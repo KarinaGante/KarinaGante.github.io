@@ -26,11 +26,32 @@
     </author><guid>http://localhost:1313/pt-br/tags/cve-2025-8539/</guid>
     <description><![CDATA[]]></description>
 </item><item>
+    <title>CVE-2025-8540</title>
+    <link>http://localhost:1313/pt-br/tags/cve-2025-8540/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-8540/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Cybersecurity</title>
+    <link>http://localhost:1313/pt-br/tags/cybersecurity/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/pt-br/tags/cybersecurity/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>I-Educar</title>
     <link>http://localhost:1313/pt-br/tags/i-educar/</link>
     <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
         <name>Karina Gante</name>
     </author><guid>http://localhost:1313/pt-br/tags/i-educar/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Stored XSS</title>
+    <link>http://localhost:1313/pt-br/tags/stored-xss/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/pt-br/tags/stored-xss/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>XSS</title>
@@ -52,27 +73,6 @@
     <pubDate>Fri, 28 Feb 2025 21:29:01 &#43;0800</pubDate><author>
         <name>Karina Gante</name>
     </author><guid>http://localhost:1313/pt-br/tags/an%C3%A1lise-forense-digital/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Capture the Flag</title>
-    <link>http://localhost:1313/pt-br/tags/capture-the-flag/</link>
-    <pubDate>Fri, 28 Feb 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/pt-br/tags/capture-the-flag/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>OSINT</title>
-    <link>http://localhost:1313/pt-br/tags/osint/</link>
-    <pubDate>Fri, 28 Feb 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/pt-br/tags/osint/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Segurança Cibernética</title>
-    <link>http://localhost:1313/pt-br/tags/seguran%C3%A7a-cibern%C3%A9tica/</link>
-    <pubDate>Fri, 28 Feb 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/pt-br/tags/seguran%C3%A7a-cibern%C3%A9tica/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
