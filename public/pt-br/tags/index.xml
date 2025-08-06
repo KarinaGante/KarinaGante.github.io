@@ -12,13 +12,6 @@
     </author><guid>http://localhost:1313/pt-br/tags/ciberseguran%C3%A7a/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Content/Posts/CVE-2025-8542</title>
-    <link>http://localhost:1313/pt-br/tags/content/posts/cve-2025-8542/</link>
-    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/pt-br/tags/content/posts/cve-2025-8542/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
     <title>CVE-2025-8538</title>
     <link>http://localhost:1313/pt-br/tags/cve-2025-8538/</link>
     <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -45,6 +38,13 @@
     <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
         <name>Karina Gante</name>
     </author><guid>http://localhost:1313/pt-br/tags/cve-2025-8541/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>CVE-2025-8542</title>
+    <link>http://localhost:1313/pt-br/tags/cve-2025-8542/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-8542/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>I-Educar</title>

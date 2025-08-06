@@ -33,6 +33,20 @@
     </author><guid>http://localhost:1313/tags/cve-2025-8541/</guid>
     <description><![CDATA[]]></description>
 </item><item>
+    <title>CVE-2025-8542</title>
+    <link>http://localhost:1313/tags/cve-2025-8542/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/cve-2025-8542/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>CVE-2025-8543</title>
+    <link>http://localhost:1313/tags/cve-2025-8543/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/cve-2025-8543/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Cybersecurity</title>
     <link>http://localhost:1313/tags/cybersecurity/</link>
     <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -59,20 +73,6 @@
     <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
         <name>Karina Gante</name>
     </author><guid>http://localhost:1313/tags/xss/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Capture the Flag</title>
-    <link>http://localhost:1313/tags/capture-the-flag/</link>
-    <pubDate>Fri, 28 Feb 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/tags/capture-the-flag/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Digital Forensics</title>
-    <link>http://localhost:1313/tags/digital-forensics/</link>
-    <pubDate>Fri, 28 Feb 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/tags/digital-forensics/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

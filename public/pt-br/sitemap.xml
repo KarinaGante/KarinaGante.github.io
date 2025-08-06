@@ -2,15 +2,6 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/pt-br/cve-2025-8542/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/cve-2025-8542/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="pt-br"
-                    href="http://localhost:1313/pt-br/cve-2025-8542/"
-                    /></url><url>
             <loc>http://localhost:1313/pt-br/cve-2025-8538/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -46,6 +37,24 @@
                     rel="alternate"
                     hreflang="pt-br"
                     href="http://localhost:1313/pt-br/cve-2025-8541/"
+                    /></url><url>
+            <loc>http://localhost:1313/pt-br/cve-2025-8543/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/cve-2025-8543/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://localhost:1313/pt-br/cve-2025-8543/"
+                    /></url><url>
+            <loc>http://localhost:1313/pt-br/cve-2025-8542/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/cve-2025-8542/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://localhost:1313/pt-br/cve-2025-8542/"
                     /></url><url>
             <loc>http://localhost:1313/pt-br/tryhackme-desafio-osint/</loc><lastmod>2025-02-28T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
@@ -129,7 +138,6 @@
                     href="http://localhost:1313/pt-br/categories/"
                     /></url><url>
             <loc>http://localhost:1313/pt-br/tags/ciberseguran%C3%A7a/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/pt-br/tags/content/posts/cve-2025-8542/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/pt-br/categories/cve/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -174,6 +182,15 @@
                     rel="alternate"
                     hreflang="pt-br"
                     href="http://localhost:1313/pt-br/tags/cve-2025-8541/"
+                    /></url><url>
+            <loc>http://localhost:1313/pt-br/tags/cve-2025-8542/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/tags/cve-2025-8542/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://localhost:1313/pt-br/tags/cve-2025-8542/"
                     /></url><url>
             <loc>http://localhost:1313/pt-br/tags/i-educar/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
