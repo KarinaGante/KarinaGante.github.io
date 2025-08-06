@@ -37,14 +37,6 @@
                 <img src="/images/CVE-2025-8541/CVE-2025-8541.png" referrerpolicy="no-referrer">
             </div><p>XSS Armazenado no i-Educar via public_uf_cad.php (Com PoC e Screenshots)</p>]]></description>
 </item><item>
-    <title>CVE-2025-8541</title>
-    <link>http://localhost:1313/pt-br/cve-2025-8543/</link>
-    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-8543/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-8541/CVE-2025-8541.png" referrerpolicy="no-referrer">
-            </div><p>XSS Armazenado no i-Educar via public_uf_cad.php (Com PoC e Screenshots)</p>]]></description>
-</item><item>
     <title>CVE-2025-8542</title>
     <link>http://localhost:1313/pt-br/cve-2025-8542/</link>
     <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -52,5 +44,21 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-8542/CVE-2025-8542.png" referrerpolicy="no-referrer">
             </div><p>Como Descobri Múltiplas Falhas de XSS Armazenado no i-Educar (Com PoC e Screenshots)</p>]]></description>
+</item><item>
+    <title>CVE-2025-8543</title>
+    <link>http://localhost:1313/pt-br/cve-2025-8543/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-8543/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-8543/CVE-2025-8543.png" referrerpolicy="no-referrer">
+            </div><p>XSS Armazenado no i-Educar via educar_raca_cad.php (Com PoC e Screenshots)</p>]]></description>
+</item><item>
+    <title>CVE-2025-8544</title>
+    <link>http://localhost:1313/pt-br/cve-2025-8544/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-8544/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-8544/CVE-2025-8544.png" referrerpolicy="no-referrer">
+            </div><p>XSS Armazenado no i-Educar via educar_raca_cad.php (Com PoC e Screenshots)</p>]]></description>
 </item></channel>
 </rss>

@@ -47,6 +47,20 @@
     </author><guid>http://localhost:1313/pt-br/tags/cve-2025-8542/</guid>
     <description><![CDATA[]]></description>
 </item><item>
+    <title>CVE-2025-8543</title>
+    <link>http://localhost:1313/pt-br/tags/cve-2025-8543/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-8543/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>CVE-2025-8544</title>
+    <link>http://localhost:1313/pt-br/tags/cve-2025-8544/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-8544/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>I-Educar</title>
     <link>http://localhost:1313/pt-br/tags/i-educar/</link>
     <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -59,20 +73,6 @@
     <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
         <name>Karina Gante</name>
     </author><guid>http://localhost:1313/pt-br/tags/xss/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>XSS Armazenado</title>
-    <link>http://localhost:1313/pt-br/tags/xss-armazenado/</link>
-    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/pt-br/tags/xss-armazenado/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Análise Forense Digital</title>
-    <link>http://localhost:1313/pt-br/tags/an%C3%A1lise-forense-digital/</link>
-    <pubDate>Fri, 28 Feb 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/pt-br/tags/an%C3%A1lise-forense-digital/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
