@@ -23,6 +23,14 @@
                 <img src="/images/CVE-2025-8539/CVE-2025-8539.png" referrerpolicy="no-referrer">
             </div><p>Como Encontrei um XSS Armazenado no i-Educar em public_distrito_cad.php (Com PoC e Screenshots)</p>]]></description>
 </item><item>
+    <title>CVE-2025-8539</title>
+    <link>http://localhost:1313/pt-br/cve-2025-8540/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-8540/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-8539/CVE-2025-8539.png" referrerpolicy="no-referrer">
+            </div><p>Como Encontrei um XSS Armazenado no i-Educar em public_distrito_cad.php (Com PoC e Screenshots)</p>]]></description>
+</item><item>
     <title>TryHackMe: Desafio OSINT</title>
     <link>http://localhost:1313/pt-br/tryhackme-desafio-osint/</link>
     <pubDate>Fri, 28 Feb 2025 21:29:01 &#43;0800</pubDate><author>
