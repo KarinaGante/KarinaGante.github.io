@@ -2,7 +2,24 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/cve-2025-8538/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/cve-2025-8538/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="pt-br"
+                        href="http://localhost:1313/pt-br/cve-2025-8538/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/cve-2025-8538/"
+                    /></url><url>
+            <loc>http://localhost:1313/cve-2025-8539/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="pt-br"
+                        href="http://localhost:1313/pt-br/cve-2025-8539/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/cve-2025-8539/"
+                    /></url><url>
             <loc>http://localhost:1313/tryhackme-desafio-osint/</loc><lastmod>2025-02-28T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="pt-br"
@@ -84,10 +101,43 @@
                     hreflang="en"
                     href="http://localhost:1313/categories/"
                     /></url><url>
-            <loc>http://localhost:1313/categories/cve/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/cve-2025-8538/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/categories/cve/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="pt-br"
+                        href="http://localhost:1313/pt-br/categories/cve/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/categories/cve/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/cve-2025-8538/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="pt-br"
+                        href="http://localhost:1313/pt-br/tags/cve-2025-8538/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/tags/cve-2025-8538/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/cve-2025-8539/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="pt-br"
+                        href="http://localhost:1313/pt-br/tags/cve-2025-8539/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/tags/cve-2025-8539/"
+                    /></url><url>
             <loc>http://localhost:1313/tags/cybersecurity/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/tags/i-educar/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/tags/i-educar/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="pt-br"
+                        href="http://localhost:1313/pt-br/tags/i-educar/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/tags/i-educar/"
+                    /></url><url>
             <loc>http://localhost:1313/authors/karina/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="pt-br"
@@ -125,7 +175,15 @@
                     hreflang="en"
                     href="http://localhost:1313/tags/"
                     /></url><url>
-            <loc>http://localhost:1313/tags/xss-vulnerability/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/tags/xss/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="pt-br"
+                        href="http://localhost:1313/pt-br/tags/xss/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/tags/xss/"
+                    /></url><url>
             <loc>http://localhost:1313/tags/capture-the-flag/</loc><lastmod>2025-02-28T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="pt-br"
