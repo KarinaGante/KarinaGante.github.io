@@ -61,13 +61,13 @@
                 <img src="/images/CVE-2025-8544/CVE-2025-8544.png" referrerpolicy="no-referrer">
             </div><p>Stored XSS in i-Educar via RegraAvaliacao/edit (With PoC and Screenshots)</p>]]></description>
 </item><item>
-    <title>CVE-2025-8544</title>
+    <title>CVE-2025-8545</title>
     <link>http://localhost:1313/cve-2025-8545/</link>
     <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
                         <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-8545/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-8544/CVE-2025-8544.png" referrerpolicy="no-referrer">
-            </div><p>Stored XSS in i-Educar via RegraAvaliacao/edit (With PoC and Screenshots)</p>]]></description>
+                <img src="/images/CVE-2025-8545/CVE-2025-8545.png" referrerpolicy="no-referrer">
+            </div><p>Stored XSS in i-Educar via educar_motivo_afastamento_cad.php (with PoC and Screenshots)</p>]]></description>
 </item><item>
     <title>TryHackMe: OSINT Challenge</title>
     <link>http://localhost:1313/tryhackme-desafio-osint/</link>
