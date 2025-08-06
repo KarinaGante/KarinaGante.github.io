@@ -47,6 +47,13 @@
     </author><guid>http://localhost:1313/tags/cve-2025-8543/</guid>
     <description><![CDATA[]]></description>
 </item><item>
+    <title>CVE-2025-8544</title>
+    <link>http://localhost:1313/tags/cve-2025-8544/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/cve-2025-8544/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Cybersecurity</title>
     <link>http://localhost:1313/tags/cybersecurity/</link>
     <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -66,13 +73,6 @@
     <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
         <name>Karina Gante</name>
     </author><guid>http://localhost:1313/tags/stored-xss/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>XSS</title>
-    <link>http://localhost:1313/tags/xss/</link>
-    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/tags/xss/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

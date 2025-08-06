@@ -65,6 +65,15 @@
                     hreflang="pt-br"
                     href="http://localhost:1313/pt-br/cve-2025-8544/"
                     /></url><url>
+            <loc>http://localhost:1313/pt-br/cve-2025-8545/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/cve-2025-8545/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://localhost:1313/pt-br/cve-2025-8545/"
+                    /></url><url>
             <loc>http://localhost:1313/pt-br/tryhackme-desafio-osint/</loc><lastmod>2025-02-28T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -210,7 +219,16 @@
                     hreflang="pt-br"
                     href="http://localhost:1313/pt-br/tags/cve-2025-8543/"
                     /></url><url>
-            <loc>http://localhost:1313/pt-br/tags/cve-2025-8544/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/pt-br/tags/cve-2025-8544/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/tags/cve-2025-8544/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="pt-br"
+                    href="http://localhost:1313/pt-br/tags/cve-2025-8544/"
+                    /></url><url>
+            <loc>http://localhost:1313/pt-br/tags/cve-2025-8545/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/pt-br/tags/i-educar/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
