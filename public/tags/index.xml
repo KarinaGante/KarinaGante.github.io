@@ -1,1 +1,78 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Tags - Tag - Karina Gante</title><link>http://localhost:1313/tags/</link><description>Tags - Tag - Karina Gante</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>karina.g@aluno.ifsp.edu.br (Karina Gante)</managingEditor><webMaster>karina.g@aluno.ifsp.edu.br (Karina Gante)</webMaster><lastBuildDate>Fri, 28 Feb 2025 21:29:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml"/><item><title>Capture the Flag</title><link>http://localhost:1313/tags/capture-the-flag/</link><pubDate>Fri, 28 Feb 2025 21:29:01 +0800</pubDate><author><name>Karina Gante</name></author><guid>http://localhost:1313/tags/capture-the-flag/</guid><description></description></item><item><title>Cybersecurity</title><link>http://localhost:1313/tags/cybersecurity/</link><pubDate>Fri, 28 Feb 2025 21:29:01 +0800</pubDate><author><name>Karina Gante</name></author><guid>http://localhost:1313/tags/cybersecurity/</guid><description></description></item><item><title>Digital Forensics</title><link>http://localhost:1313/tags/digital-forensics/</link><pubDate>Fri, 28 Feb 2025 21:29:01 +0800</pubDate><author><name>Karina Gante</name></author><guid>http://localhost:1313/tags/digital-forensics/</guid><description></description></item><item><title>OSINT</title><link>http://localhost:1313/tags/osint/</link><pubDate>Fri, 28 Feb 2025 21:29:01 +0800</pubDate><author><name>Karina Gante</name></author><guid>http://localhost:1313/tags/osint/</guid><description></description></item><item><title>TryHackMe</title><link>http://localhost:1313/tags/tryhackme/</link><pubDate>Fri, 28 Feb 2025 21:29:01 +0800</pubDate><author><name>Karina Gante</name></author><guid>http://localhost:1313/tags/tryhackme/</guid><description></description></item><item><title>2D Game</title><link>http://localhost:1313/tags/2d-game/</link><pubDate>Thu, 11 Jul 2024 21:29:01 +0800</pubDate><author><name>Karina Gante</name></author><guid>http://localhost:1313/tags/2d-game/</guid><description></description></item><item><title>Action Game</title><link>http://localhost:1313/tags/action-game/</link><pubDate>Thu, 11 Jul 2024 21:29:01 +0800</pubDate><author><name>Karina Gante</name></author><guid>http://localhost:1313/tags/action-game/</guid><description></description></item><item><title>GDscript</title><link>http://localhost:1313/tags/gdscript/</link><pubDate>Thu, 11 Jul 2024 21:29:01 +0800</pubDate><author><name>Karina Gante</name></author><guid>http://localhost:1313/tags/gdscript/</guid><description></description></item><item><title>Godot Engine</title><link>http://localhost:1313/tags/godot-engine/</link><pubDate>Thu, 11 Jul 2024 21:29:01 +0800</pubDate><author><name>Karina Gante</name></author><guid>http://localhost:1313/tags/godot-engine/</guid><description></description></item><item><title>Santander Bootcamp 2024</title><link>http://localhost:1313/tags/santander-bootcamp-2024/</link><pubDate>Thu, 11 Jul 2024 21:29:01 +0800</pubDate><author><name>Karina Gante</name></author><guid>http://localhost:1313/tags/santander-bootcamp-2024/</guid><description></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Karina Gante</title>
+        <link>http://localhost:1313/tags/</link>
+        <description>Tags - Tag - Karina Gante</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>karina.g@aluno.ifsp.edu.br (Karina Gante)</managingEditor>
+            <webMaster>karina.g@aluno.ifsp.edu.br (Karina Gante)</webMaster><lastBuildDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>CVE-2025-8538</title>
+    <link>http://localhost:1313/tags/cve-2025-8538/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/cve-2025-8538/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Cybersecurity</title>
+    <link>http://localhost:1313/tags/cybersecurity/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/cybersecurity/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>I-Educar</title>
+    <link>http://localhost:1313/tags/i-educar/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/i-educar/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Stored XSS</title>
+    <link>http://localhost:1313/tags/stored-xss/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/stored-xss/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>XSS Vulnerability</title>
+    <link>http://localhost:1313/tags/xss-vulnerability/</link>
+    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/xss-vulnerability/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Capture the Flag</title>
+    <link>http://localhost:1313/tags/capture-the-flag/</link>
+    <pubDate>Fri, 28 Feb 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/capture-the-flag/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Digital Forensics</title>
+    <link>http://localhost:1313/tags/digital-forensics/</link>
+    <pubDate>Fri, 28 Feb 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/digital-forensics/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>OSINT</title>
+    <link>http://localhost:1313/tags/osint/</link>
+    <pubDate>Fri, 28 Feb 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/osint/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>TryHackMe</title>
+    <link>http://localhost:1313/tags/tryhackme/</link>
+    <pubDate>Fri, 28 Feb 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/tryhackme/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>2D Game</title>
+    <link>http://localhost:1313/tags/2d-game/</link>
+    <pubDate>Thu, 11 Jul 2024 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/2d-game/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>

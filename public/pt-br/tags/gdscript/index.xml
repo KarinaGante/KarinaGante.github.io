@@ -1,3 +1,16 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>GDscript - Tag - Karina Gante</title><link>http://localhost:1313/pt-br/tags/gdscript/</link><description>GDscript - Tag - Karina Gante</description><generator>Hugo -- gohugo.io</generator><language>pt-BR</language><managingEditor>karina.g@aluno.ifsp.edu.br (Karina Gante)</managingEditor><webMaster>karina.g@aluno.ifsp.edu.br (Karina Gante)</webMaster><lastBuildDate>Thu, 11 Jul 2024 21:29:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/pt-br/tags/gdscript/" rel="self" type="application/rss+xml"/><item><title>Fearless Knight</title><link>http://localhost:1313/pt-br/fearless-knight/</link><pubDate>Thu, 11 Jul 2024 21:29:01 +0800</pubDate><author><name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/fearless-knight/</guid><description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>GDscript - Tag - Karina Gante</title>
+        <link>http://localhost:1313/pt-br/tags/gdscript/</link>
+        <description>GDscript - Tag - Karina Gante</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-BR</language><managingEditor>karina.g@aluno.ifsp.edu.br (Karina Gante)</managingEditor>
+            <webMaster>karina.g@aluno.ifsp.edu.br (Karina Gante)</webMaster><lastBuildDate>Thu, 11 Jul 2024 21:29:01 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/pt-br/tags/gdscript/" rel="self" type="application/rss+xml" /><item>
+    <title>Fearless Knight</title>
+    <link>http://localhost:1313/pt-br/fearless-knight/</link>
+    <pubDate>Thu, 11 Jul 2024 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/fearless-knight/</guid>
+    <description><![CDATA[<div class="featured-image">
                 <img src="/images/fearlessKnight/fearlessKnight.gif" referrerpolicy="no-referrer">
-            </div><p>Fearless Knight é um jogo de ação 2D feito com Godot durante o Bootcamp Santander 2024.</p>]]></description></item></channel></rss>
+            </div><p>Fearless Knight é um jogo de ação 2D feito com Godot durante o Bootcamp Santander 2024.</p>]]></description>
+</item></channel>
+</rss>

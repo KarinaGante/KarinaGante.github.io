@@ -1,3 +1,16 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Communication - Tag - Karina Gante</title><link>http://localhost:1313/pt-br/tags/communication/</link><description>Communication - Tag - Karina Gante</description><generator>Hugo -- gohugo.io</generator><language>pt-BR</language><managingEditor>karina.g@aluno.ifsp.edu.br (Karina Gante)</managingEditor><webMaster>karina.g@aluno.ifsp.edu.br (Karina Gante)</webMaster><lastBuildDate>Fri, 15 Dec 2023 21:29:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/pt-br/tags/communication/" rel="self" type="application/rss+xml"/><item><title>iWant 2.0</title><link>http://localhost:1313/pt-br/iwant2.0/</link><pubDate>Fri, 15 Dec 2023 21:29:01 +0800</pubDate><author><name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/iwant2.0/</guid><description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Communication - Tag - Karina Gante</title>
+        <link>http://localhost:1313/pt-br/tags/communication/</link>
+        <description>Communication - Tag - Karina Gante</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-BR</language><managingEditor>karina.g@aluno.ifsp.edu.br (Karina Gante)</managingEditor>
+            <webMaster>karina.g@aluno.ifsp.edu.br (Karina Gante)</webMaster><lastBuildDate>Fri, 15 Dec 2023 21:29:01 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/pt-br/tags/communication/" rel="self" type="application/rss+xml" /><item>
+    <title>iWant 2.0</title>
+    <link>http://localhost:1313/pt-br/iwant2.0/</link>
+    <pubDate>Fri, 15 Dec 2023 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/iwant2.0/</guid>
+    <description><![CDATA[<div class="featured-image">
                 <img src="/images/iWant2.0/iwant2.0.png" referrerpolicy="no-referrer">
-            </div><p>iWant 2.0 é um aplicativo de assistência para usuários autistas, desenvolvido com <a href="https://thunkable.com/" target="_blank">Thunkable</a> e apresentado em importantes eventos acadêmicos.</p>]]></description></item></channel></rss>
+            </div><p>iWant 2.0 é um aplicativo de assistência para usuários autistas, desenvolvido com <a href="https://thunkable.com/" target="_blank">Thunkable</a> e apresentado em importantes eventos acadêmicos.</p>]]></description>
+</item></channel>
+</rss>
