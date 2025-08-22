@@ -18,6 +18,19 @@
     <a href="#cve-2025-9137" class="header-mark"></a>CVE-2025-9137</h2><h3 id="introdução" class="headerLink">
     <a href="#introdu%c3%a7%c3%a3o" class="header-mark"></a>Introdução</h3><p align="justify">Você consegue imaginar comprometer um sistema apenas preenchendo um único campo de texto? Neste post, mostrarei como uma vulnerabilidade simples no campo "Alias" do <b><a href="https://github.com/SCADA-LTS/Scada-LTS" target=_blank>Scada-LTS</a></b> permite que invasores executem scripts maliciosos no navegador de qualquer pessoa que acesse a página — automaticamente e sem qualquer interação. </br></br> Após uma investigação completa e divulgação responsável, o problema foi atribuído como <b><a href="https://www.cve.org/CVERecord?id=CVE-2025-9137" target=_blank>CVE-2025-9137</a></b>. </br></br> Neste artigo, compartilho detalhes técnicos, uma PoC passo a passo, capturas de tela e o impacto potencial desta vulnerabilidade. </p>]]></description>
 </item><item>
+    <title>CVE-2025-9137</title>
+    <link>http://localhost:1313/pt-br/cve-2025-9138/</link>
+    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-9138/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-9137/CVE-2025-9137.png" referrerpolicy="no-referrer">
+            </div><p>Como encontrei um XSS armazenado no Scada-LTS via <code>scheduled_events.shtm</code> (com PoC e Capturas de Tela)</p>
+<blockquote>
+  <p><em><strong>🇺🇸 Read in <a href="http://karinagante.github.io/cve-2025-9137/" target="_blank" rel="noopener noreferrer">English</a>.</strong></em></p>
+</blockquote><h2 id="cve-2025-9137" class="headerLink">
+    <a href="#cve-2025-9137" class="header-mark"></a>CVE-2025-9137</h2><h3 id="introdução" class="headerLink">
+    <a href="#introdu%c3%a7%c3%a3o" class="header-mark"></a>Introdução</h3><p align="justify">Você consegue imaginar comprometer um sistema apenas preenchendo um único campo de texto? Neste post, mostrarei como uma vulnerabilidade simples no campo "Alias" do <b><a href="https://github.com/SCADA-LTS/Scada-LTS" target=_blank>Scada-LTS</a></b> permite que invasores executem scripts maliciosos no navegador de qualquer pessoa que acesse a página — automaticamente e sem qualquer interação. </br></br> Após uma investigação completa e divulgação responsável, o problema foi atribuído como <b><a href="https://www.cve.org/CVERecord?id=CVE-2025-9137" target=_blank>CVE-2025-9137</a></b>. </br></br> Neste artigo, compartilho detalhes técnicos, uma PoC passo a passo, capturas de tela e o impacto potencial desta vulnerabilidade. </p>]]></description>
+</item><item>
     <title>CVE-2025-8538</title>
     <link>http://localhost:1313/pt-br/cve-2025-8538/</link>
     <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
