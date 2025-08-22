@@ -112,7 +112,7 @@ defaultContentLanguage = "en"
   # Author config
   [params.author]
     name = "Karina Gante"
-    email = "karina.g@aluno.ifsp.edu.br"
+    email = "karina.gante1@gmail.com"
     link = "https://github.com/KarinaGante"
     avatar = "/images/karina.png"
     gravatarEmail = ""
@@ -274,7 +274,7 @@ defaultContentLanguage = "en"
   # Social config about the author
   [params.social]
     GitHub = "KarinaGante"
-    Email = "karina.g@aluno.ifsp.edu.br"
+    Email = "karina.gante1@gmail.com"
     Linkedin = "karina-gante"
     Instagram = "karinovisk02"
     RSS = false # 
