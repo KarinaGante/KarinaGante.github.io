@@ -26,25 +26,23 @@
                         <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-9138/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-9138/CVE-2025-9138.png" referrerpolicy="no-referrer">
-            </div><p>Como encontrei um XSS armazenado no Scada-LTS via <strong>Path</strong> parâmetro <strong>pointHierarchy/new/</strong> (com PoC e Capturas de Tela)</p>
-<blockquote>
-  <p><em><strong>🇺🇸 Read in <a href="http://karinagante.github.io/cve-2025-9138/" target="_blank" rel="noopener noreferrer">English</a>.</strong></em></p>
-</blockquote><h2 id="cve-2025-9138" class="headerLink">
-    <a href="#cve-2025-9138" class="header-mark"></a>CVE-2025-9138</h2><h3 id="introdução" class="headerLink">
-    <a href="#introdu%c3%a7%c3%a3o" class="header-mark"></a>Introdução</h3><p align="justify">E se eu dissesse que apenas adicionar um novo título a um formulário pode comprometer um usuário que abre uma página no seu sistema? Você consegue imaginar comprometer um sistema apenas preenchendo um único campo de texto?</br></br>Neste post, vou explicar como descobri uma vulnerabilidade de XSS Armazenado no aplicativo <b><a href="https://github.com/SCADA-LTS/Scada-LTS" target=_blank>Scada-LTS</a></b> — especificamente no endpoint <b>pointHierarchy/new/</b> — que permite que um invasor injete e persista um payload JavaScript. O exploit é acionado automaticamente no momento em que qualquer usuário acessa a página. Sem cliques. Sem avisos.</br></br>Vamos analisar os detalhes técnicos, a prova de conceito, as capturas de tela e os riscos reais envolvidos.</p>]]></description>
+            </div><p>Como encontrei um XSS armazenado no Scada-LTS via <strong>Path</strong> parâmetro <strong>pointHierarchy/new/</strong> (com PoC e Capturas de Tela)</p>]]></description>
 </item><item>
-    <title>CVE-2025-9138</title>
+    <title>CVE-2025-9143</title>
     <link>http://localhost:1313/pt-br/cve-2025-9143/</link>
     <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
                         <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-9143/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-9138/CVE-2025-9138.png" referrerpolicy="no-referrer">
-            </div><p>Como encontrei um XSS armazenado no Scada-LTS via <strong>Path</strong> parâmetro <strong>pointHierarchy/new/</strong> (com PoC e Capturas de Tela)</p>
-<blockquote>
-  <p><em><strong>🇺🇸 Read in <a href="http://karinagante.github.io/cve-2025-9138/" target="_blank" rel="noopener noreferrer">English</a>.</strong></em></p>
-</blockquote><h2 id="cve-2025-9138" class="headerLink">
-    <a href="#cve-2025-9138" class="header-mark"></a>CVE-2025-9138</h2><h3 id="introdução" class="headerLink">
-    <a href="#introdu%c3%a7%c3%a3o" class="header-mark"></a>Introdução</h3><p align="justify">E se eu dissesse que apenas adicionar um novo título a um formulário pode comprometer um usuário que abre uma página no seu sistema? Você consegue imaginar comprometer um sistema apenas preenchendo um único campo de texto?</br></br>Neste post, vou explicar como descobri uma vulnerabilidade de XSS Armazenado no aplicativo <b><a href="https://github.com/SCADA-LTS/Scada-LTS" target=_blank>Scada-LTS</a></b> — especificamente no endpoint <b>pointHierarchy/new/</b> — que permite que um invasor injete e persista um payload JavaScript. O exploit é acionado automaticamente no momento em que qualquer usuário acessa a página. Sem cliques. Sem avisos.</br></br>Vamos analisar os detalhes técnicos, a prova de conceito, as capturas de tela e os riscos reais envolvidos.</p>]]></description>
+                <img src="/images/CVE-2025-9143/CVE-2025-9143.png" referrerpolicy="no-referrer">
+            </div><p>Três XSS em uma página? O Scada-LTS falha ao sanitizar entradas nas configurações de <code>mailing_lists.shtm</code></p>]]></description>
+</item><item>
+    <title>CVE-2025-9143</title>
+    <link>http://localhost:1313/pt-br/cve-2025-9144/</link>
+    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-9144/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-9143/CVE-2025-9143.png" referrerpolicy="no-referrer">
+            </div><p>Três XSS em uma página? O Scada-LTS falha ao sanitizar entradas nas configurações de <code>mailing_lists.shtm</code></p>]]></description>
 </item><item>
     <title>CVE-2025-8538</title>
     <link>http://localhost:1313/pt-br/cve-2025-8538/</link>
@@ -93,13 +91,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-8543/CVE-2025-8543.png" referrerpolicy="no-referrer">
             </div><p>XSS Armazenado no i-Educar via educar_raca_cad.php (Com PoC e Screenshots)</p>]]></description>
-</item><item>
-    <title>CVE-2025-8544</title>
-    <link>http://localhost:1313/pt-br/cve-2025-8544/</link>
-    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-8544/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-8544/CVE-2025-8544.png" referrerpolicy="no-referrer">
-            </div><p>XSS Armazenado no i-Educar via RegraAvaliacao/edit (Com PoC e Screenshots)</p>]]></description>
 </item></channel>
 </rss>

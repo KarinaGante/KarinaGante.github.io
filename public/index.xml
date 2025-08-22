@@ -21,12 +21,7 @@
                         <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9138/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-9138/CVE-2025-9138.png" referrerpolicy="no-referrer">
-            </div><p>How I Found a Stored XSS in Scada-LTS via <strong>pointHierarchy/new/ Path Parameter</strong> (With PoC and Screenshots)</p>
-<blockquote>
-  <p><em><strong>🇧🇷 Ler em <a href="http://karinagante.github.io/pt-br/cve-2025-9138" target="_blank" rel="noopener noreferrer">Português</a>.</strong></em></p>
-</blockquote><h2 id="cve-2025-9138" class="headerLink">
-    <a href="#cve-2025-9138" class="header-mark"></a>CVE-2025-9138</h2><h3 id="introduction" class="headerLink">
-    <a href="#introduction" class="header-mark"></a>Introduction</h3><p align="justify">What if I told you that just adding a new title to a form could compromise a user who opens a page in your system? Can you imagine compromising a system just by filling out a single text field?</br></br>In this post, I’ll walk you through how I discovered a Stored XSS vulnerability in the <b><a href="https://github.com/SCADA-LTS/Scada-LTS" target=_blank>Scada-LTS</a></b> application — specifically in the <b>pointHierarchy/new/</b> endpoint — that allows an attacker to inject and persist a JavaScript payload. The exploit is automatically triggered the moment any user accesses the page. No clicks. No warnings.</br></br>Let’s go through the technical details, proof of concept, screenshots, and real-world risks involved.</p>]]></description>
+            </div><p>How I Found a Stored XSS in Scada-LTS via <strong>pointHierarchy/new/ Path Parameter</strong> (With PoC and Screenshots)</p>]]></description>
 </item><item>
     <title>CVE-2025-9143</title>
     <link>http://localhost:1313/cve-2025-9143/</link>
@@ -35,6 +30,14 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-9143/CVE-2025-9143.png" referrerpolicy="no-referrer">
             </div><p>Three XSS in One Page? Scada-LTS Fails to Sanitize Inputs in <strong>Mailing List</strong> Settings</p>]]></description>
+</item><item>
+    <title>CVE-2025-9144</title>
+    <link>http://localhost:1313/cve-2025-9144/</link>
+    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9144/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-9144/CVE-2025-9144.png" referrerpolicy="no-referrer">
+            </div><p>Stored XSS in Scada-LTS: Input Validation Flaw in <strong>Publisher</strong> Name Field</p>]]></description>
 </item><item>
     <title>CVE-2025-8538</title>
     <link>http://localhost:1313/cve-2025-8538/</link>
@@ -83,13 +86,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-8543/CVE-2025-8543.png" referrerpolicy="no-referrer">
             </div><p>Stored XSS in i-Educar via educar_raca_cad.php (With PoC and Screenshots)</p>]]></description>
-</item><item>
-    <title>CVE-2025-8544</title>
-    <link>http://localhost:1313/cve-2025-8544/</link>
-    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-8544/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-8544/CVE-2025-8544.png" referrerpolicy="no-referrer">
-            </div><p>Stored XSS in i-Educar via RegraAvaliacao/edit (With PoC and Screenshots)</p>]]></description>
 </item></channel>
 </rss>

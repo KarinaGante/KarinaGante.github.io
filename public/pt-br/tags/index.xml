@@ -26,6 +26,13 @@
     </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9138/</guid>
     <description><![CDATA[]]></description>
 </item><item>
+    <title>CVE-2025-9143</title>
+    <link>http://localhost:1313/pt-br/tags/cve-2025-9143/</link>
+    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9143/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Scada-LTS</title>
     <link>http://localhost:1313/pt-br/tags/scada-lts/</link>
     <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -66,13 +73,6 @@
     <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
         <name>Karina Gante</name>
     </author><guid>http://localhost:1313/pt-br/tags/cve-2025-8540/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>CVE-2025-8541</title>
-    <link>http://localhost:1313/pt-br/tags/cve-2025-8541/</link>
-    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-8541/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
