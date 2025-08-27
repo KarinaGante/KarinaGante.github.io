@@ -12,6 +12,13 @@
     </author><guid>http://localhost:1313/pt-br/tags/blind-sqli/</guid>
     <description><![CDATA[]]></description>
 </item><item>
+    <title>Boolean SQLi</title>
+    <link>http://localhost:1313/pt-br/tags/boolean-sqli/</link>
+    <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/pt-br/tags/boolean-sqli/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Cibersegurança</title>
     <link>http://localhost:1313/pt-br/tags/ciberseguran%C3%A7a/</link>
     <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -24,6 +31,13 @@
     <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
         <name>Karina Gante</name>
     </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9531/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>CVE-2025-9532</title>
+    <link>http://localhost:1313/pt-br/tags/cve-2025-9532/</link>
+    <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9532/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>I-Educar</title>
@@ -59,20 +73,6 @@
     <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
         <name>Karina Gante</name>
     </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9143/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>CVE-2025-9144</title>
-    <link>http://localhost:1313/pt-br/tags/cve-2025-9144/</link>
-    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9144/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>CVE-2025-9145</title>
-    <link>http://localhost:1313/pt-br/tags/cve-2025-9145/</link>
-    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9145/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

@@ -12,5 +12,13 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-9531/CVE-2025-9531.png" referrerpolicy="no-referrer">
             </div><p>How I Found a <strong>Time-Based Blind SQL Injection</strong> in i-Educar (With Real Delay and PoC).</p>]]></description>
+</item><item>
+    <title>CVE-2025-9532</title>
+    <link>http://localhost:1313/cve-2025-9532/</link>
+    <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9532/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-9532/CVE-2025-9532.png" referrerpolicy="no-referrer">
+            </div><p>Exploring <strong>Boolean-Based SQL Injection</strong> in i-Educar with sqlmap and Database Extraction.</p>]]></description>
 </item></channel>
 </rss>
