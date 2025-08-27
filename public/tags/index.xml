@@ -4,7 +4,42 @@
         <link>http://localhost:1313/tags/</link>
         <description>Tags - Tag - Karina Gante</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>karina.gante1@gmail.com (Karina Gante)</managingEditor>
-            <webMaster>karina.gante1@gmail.com (Karina Gante)</webMaster><lastBuildDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>karina.gante1@gmail.com (Karina Gante)</webMaster><lastBuildDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Blind SQLi</title>
+    <link>http://localhost:1313/tags/blind-sqli/</link>
+    <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/blind-sqli/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>CVE-2025-9531</title>
+    <link>http://localhost:1313/tags/cve-2025-9531/</link>
+    <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/cve-2025-9531/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Cybersecurity</title>
+    <link>http://localhost:1313/tags/cybersecurity/</link>
+    <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/cybersecurity/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>I-Educar</title>
+    <link>http://localhost:1313/tags/i-educar/</link>
+    <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/i-educar/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>SQL Injection</title>
+    <link>http://localhost:1313/tags/sql-injection/</link>
+    <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/tags/sql-injection/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>CVE-2025-9137</title>
     <link>http://localhost:1313/tags/cve-2025-9137/</link>
     <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -38,41 +73,6 @@
     <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
         <name>Karina Gante</name>
     </author><guid>http://localhost:1313/tags/cve-2025-9145/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Cybersecurity</title>
-    <link>http://localhost:1313/tags/cybersecurity/</link>
-    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/tags/cybersecurity/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>File Upload Bypass</title>
-    <link>http://localhost:1313/tags/file-upload-bypass/</link>
-    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/tags/file-upload-bypass/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Scada-LTS</title>
-    <link>http://localhost:1313/tags/scada-lts/</link>
-    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/tags/scada-lts/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Stored XSS</title>
-    <link>http://localhost:1313/tags/stored-xss/</link>
-    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/tags/stored-xss/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>XSS</title>
-    <link>http://localhost:1313/tags/xss/</link>
-    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/tags/xss/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

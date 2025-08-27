@@ -4,7 +4,15 @@
         <link>http://localhost:1313/pt-br/authors/karina/</link>
         <description>Karina - Autor - Karina Gante</description>
         <generator>Hugo -- gohugo.io</generator><language>pt-BR</language><managingEditor>karina.gante1@gmail.com (Karina Gante)</managingEditor>
-            <webMaster>karina.gante1@gmail.com (Karina Gante)</webMaster><lastBuildDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/pt-br/authors/karina/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>karina.gante1@gmail.com (Karina Gante)</webMaster><lastBuildDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/pt-br/authors/karina/" rel="self" type="application/rss+xml" /><item>
+    <title>CVE-2025-9531</title>
+    <link>http://localhost:1313/pt-br/cve-2025-9531/</link>
+    <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-9531/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-9531/CVE-2025-9531.png" referrerpolicy="no-referrer">
+            </div><p>Como encontrei uma <strong>Injeção Blind de SQL baseada em tempo</strong> no i-Educar (com atraso real e PoC).</p>]]></description>
+</item><item>
     <title>CVE-2025-9137</title>
     <link>http://localhost:1313/pt-br/cve-2025-9137/</link>
     <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -37,13 +45,13 @@
                 <img src="/images/CVE-2025-9144/CVE-2025-9144.png" referrerpolicy="no-referrer">
             </div><p>XSS armazenado no Scada-LTS: falha de validação de entrada no campo Nome do <strong>Publisher</strong></p>]]></description>
 </item><item>
-    <title>CVE-2025-9144</title>
+    <title>CVE-2025-9145</title>
     <link>http://localhost:1313/pt-br/cve-2025-9145/</link>
     <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
                         <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-9145/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-9144/CVE-2025-9144.png" referrerpolicy="no-referrer">
-            </div><p>XSS armazenado no Scada-LTS: falha de validação de entrada no campo Nome do <strong>Publisher</strong></p>]]></description>
+                <img src="/images/CVE-2025-9145/CVE-2025-9145.png" referrerpolicy="no-referrer">
+            </div><p>XSS armazenado via <strong>Bypass de upload de SVG</strong> no Scada-LTS.</p>]]></description>
 </item><item>
     <title>CVE-2025-8538</title>
     <link>http://localhost:1313/pt-br/cve-2025-8538/</link>
@@ -76,13 +84,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-8541/CVE-2025-8541.png" referrerpolicy="no-referrer">
             </div><p>XSS Armazenado no i-Educar via public_uf_cad.php (Com PoC e Screenshots)</p>]]></description>
-</item><item>
-    <title>CVE-2025-8542</title>
-    <link>http://localhost:1313/pt-br/cve-2025-8542/</link>
-    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-8542/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-8542/CVE-2025-8542.png" referrerpolicy="no-referrer">
-            </div><p>Como Descobri Múltiplas Falhas de XSS Armazenado no i-Educar (Com PoC e Screenshots)</p>]]></description>
 </item></channel>
 </rss>
