@@ -4,9 +4,17 @@
         <link>http://localhost:1313/pt-br/</link>
         <description>Karina Gante portfolio</description>
         <generator>Hugo -- gohugo.io</generator><language>pt-BR</language><managingEditor>karina.gante1@gmail.com (Karina Gante)</managingEditor>
-            <webMaster>karina.gante1@gmail.com (Karina Gante)</webMaster><lastBuildDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</lastBuildDate>
+            <webMaster>karina.gante1@gmail.com (Karina Gante)</webMaster><lastBuildDate>Fri, 29 Aug 2025 21:29:01 &#43;0800</lastBuildDate>
             <atom:link href="http://localhost:1313/pt-br/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>CVE-2025-9652</title>
+    <link>http://localhost:1313/pt-br/cve-2025-9652/</link>
+    <pubDate>Fri, 29 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-9652/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-9652/CVE-2025-9652.png" referrerpolicy="no-referrer">
+            </div><p>Como Descobri Múltiplas Falhas de <strong>XSS Armazenado</strong> no <b><a href="https://github.com/portabilis/i-educar" target=_blank>i-Educar</a></b> (Com PoC e Screenshots).</p>]]></description>
+</item><item>
     <title>CVE-2025-9531</title>
     <link>http://localhost:1313/pt-br/cve-2025-9531/</link>
     <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -78,13 +86,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-8539/CVE-2025-8539.png" referrerpolicy="no-referrer">
             </div><p>Como Encontrei um XSS Armazenado no i-Educar em public_distrito_cad.php (Com PoC e Screenshots)</p>]]></description>
-</item><item>
-    <title>CVE-2025-8540</title>
-    <link>http://localhost:1313/pt-br/cve-2025-8540/</link>
-    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-8540/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-8540/CVE-2025-8540.png" referrerpolicy="no-referrer">
-            </div><p>XSS Armazenado no i-Educar via public_municipio_cad.php (Com PoC e Screenshots)</p>]]></description>
 </item></channel>
 </rss>
