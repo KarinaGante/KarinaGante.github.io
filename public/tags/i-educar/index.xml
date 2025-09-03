@@ -21,6 +21,14 @@
                 <img src="/images/CVE-2025-9721/CVE-2025-9721.png" referrerpolicy="no-referrer">
             </div><p>How I Discovered Multiple <strong>Stored XSS</strong> in <b><a href="https://github.com/portabilis/i-educar" target=_blank>i-Educar</a></b> via FormulaMedia/edit (With PoC and Screenshots).</p>]]></description>
 </item><item>
+    <title>CVE-2025-9722</title>
+    <link>http://localhost:1313/cve-2025-9722/</link>
+    <pubDate>Sun, 31 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9722/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-9722/CVE-2025-9722.png" referrerpolicy="no-referrer">
+            </div><p>How I Discovered Multiple <strong>Stored XSS</strong> in <b><a href="https://github.com/portabilis/i-educar" target=_blank>i-Educar</a></b> via educar_transferencia_tipo_cad.php (With PoC and Screenshots).</p>]]></description>
+</item><item>
     <title>CVE-2025-9652</title>
     <link>http://localhost:1313/cve-2025-9652/</link>
     <pubDate>Fri, 29 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -76,13 +84,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-8540/CVE-2025-8540.png" referrerpolicy="no-referrer">
             </div><p>Stored XSS in i-Educar via public_municipio_cad.php (With PoC and Screenshots)</p>]]></description>
-</item><item>
-    <title>CVE-2025-8541</title>
-    <link>http://localhost:1313/cve-2025-8541/</link>
-    <pubDate>Wed, 06 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-8541/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-8541/CVE-2025-8541.png" referrerpolicy="no-referrer">
-            </div><p>Stored XSS in i-Educar via public_uf_cad.php (With PoC and Screenshots)</p>]]></description>
 </item></channel>
 </rss>
