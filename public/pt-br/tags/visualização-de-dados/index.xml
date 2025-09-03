@@ -1,5 +1,24 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Visualização De Dados - Tag - Karina Gante</title><link>http://localhost:1313/pt-br/tags/visualiza%C3%A7%C3%A3o-de-dados/</link><description>Visualização De Dados - Tag - Karina Gante</description><generator>Hugo -- gohugo.io</generator><language>pt-BR</language><managingEditor>karina.gante1@gmail.com (Karina Gante)</managingEditor><webMaster>karina.gante1@gmail.com (Karina Gante)</webMaster><lastBuildDate>Mon, 18 Mar 2024 21:29:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/pt-br/tags/visualiza%C3%A7%C3%A3o-de-dados/" rel="self" type="application/rss+xml"/><item><title>Relatório Mensal de Vendas</title><link>http://localhost:1313/pt-br/monthlysales/</link><pubDate>Mon, 18 Mar 2024 21:29:01 +0800</pubDate><author><name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/monthlysales/</guid><description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Visualização De Dados - Tag - Karina Gante</title>
+        <link>http://localhost:1313/pt-br/tags/visualiza%C3%A7%C3%A3o-de-dados/</link>
+        <description>Visualização De Dados - Tag - Karina Gante</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-BR</language><managingEditor>karina.gante1@gmail.com (Karina Gante)</managingEditor>
+            <webMaster>karina.gante1@gmail.com (Karina Gante)</webMaster><lastBuildDate>Mon, 18 Mar 2024 21:29:01 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/pt-br/tags/visualiza%C3%A7%C3%A3o-de-dados/" rel="self" type="application/rss+xml" /><item>
+    <title>Relatório Mensal de Vendas</title>
+    <link>http://localhost:1313/pt-br/monthlysales/</link>
+    <pubDate>Mon, 18 Mar 2024 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/monthlysales/</guid>
+    <description><![CDATA[<div class="featured-image">
                 <img src="/images/monthlySales/monthlysales.png" referrerpolicy="no-referrer">
-            </div><p>Relatório mensal de vendas usando o Power BI para rastrear tendências e padrões sazonais.</p>]]></description></item><item><title>Car Dashboard</title><link>http://localhost:1313/pt-br/cardashboard/</link><pubDate>Tue, 16 Jan 2024 21:29:01 +0800</pubDate><author><name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cardashboard/</guid><description><![CDATA[<div class="featured-image">
+            </div><p>Relatório mensal de vendas usando o Power BI para rastrear tendências e padrões sazonais.</p>]]></description>
+</item><item>
+    <title>Car Dashboard</title>
+    <link>http://localhost:1313/pt-br/cardashboard/</link>
+    <pubDate>Tue, 16 Jan 2024 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cardashboard/</guid>
+    <description><![CDATA[<div class="featured-image">
                 <img src="/images/carDashboard/cardashboard.png" referrerpolicy="no-referrer">
-            </div><p>Painel de vendas de carros usando Power BI e Excel para obter insights de desempenho regional.</p>]]></description></item></channel></rss>
+            </div><p>Painel de vendas de carros usando Power BI e Excel para obter insights de desempenho regional.</p>]]></description>
+</item></channel>
+</rss>
