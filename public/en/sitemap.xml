@@ -11,6 +11,15 @@
                     hreflang="en"
                     href="http://localhost:1313/cve-2025-9720/"
                     /></url><url>
+            <loc>http://localhost:1313/cve-2025-9721/</loc><lastmod>2025-08-31T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="pt-br"
+                        href="http://localhost:1313/pt-br/cve-2025-9721/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/cve-2025-9721/"
+                    /></url><url>
             <loc>http://localhost:1313/cve-2025-9652/</loc><lastmod>2025-08-29T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="pt-br"
@@ -262,6 +271,15 @@
                     rel="alternate"
                     hreflang="en"
                     href="http://localhost:1313/tags/cve-2025-9720/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/cve-2025-9721/</loc><lastmod>2025-08-31T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="pt-br"
+                        href="http://localhost:1313/pt-br/tags/cve-2025-9721/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/tags/cve-2025-9721/"
                     /></url><url>
             <loc>http://localhost:1313/tags/cybersecurity/</loc><lastmod>2025-08-31T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/tags/i-educar/</loc><lastmod>2025-08-31T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
