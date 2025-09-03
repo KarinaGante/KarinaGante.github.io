@@ -182,6 +182,15 @@
                     hreflang="en"
                     href="http://localhost:1313/cve-2025-8545/"
                     /></url><url>
+            <loc>http://localhost:1313/cve-2025-9723/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="pt-br"
+                        href="http://localhost:1313/pt-br/cve-2025-9723/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/cve-2025-9723/"
+                    /></url><url>
             <loc>http://localhost:1313/tryhackme-desafio-osint/</loc><lastmod>2025-02-28T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="pt-br"
@@ -544,6 +553,15 @@
                     rel="alternate"
                     hreflang="en"
                     href="http://localhost:1313/tags/cve-2025-8545/"
+                    /></url><url>
+            <loc>http://localhost:1313/tags/cve-2025-9723/</loc><lastmod>2025-08-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="pt-br"
+                        href="http://localhost:1313/pt-br/tags/cve-2025-9723/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://localhost:1313/tags/cve-2025-9723/"
                     /></url><url>
             <loc>http://localhost:1313/tags/capture-the-flag/</loc><lastmod>2025-02-28T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
