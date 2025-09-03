@@ -33,6 +33,13 @@
     </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9722/</guid>
     <description><![CDATA[]]></description>
 </item><item>
+    <title>CVE-2025-9723</title>
+    <link>http://localhost:1313/pt-br/tags/cve-2025-9723/</link>
+    <pubDate>Sun, 31 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9723/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>I-Educar</title>
     <link>http://localhost:1313/pt-br/tags/i-educar/</link>
     <pubDate>Sun, 31 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -66,13 +73,6 @@
     <pubDate>Fri, 29 Aug 2025 21:29:01 &#43;0800</pubDate><author>
         <name>Karina Gante</name>
     </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9653/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Blind SQLi</title>
-    <link>http://localhost:1313/pt-br/tags/blind-sqli/</link>
-    <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/pt-br/tags/blind-sqli/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

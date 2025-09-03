@@ -29,6 +29,14 @@
                 <img src="/images/CVE-2025-9722/CVE-2025-9722.png" referrerpolicy="no-referrer">
             </div><p>How I Discovered Multiple <strong>Stored XSS</strong> in <b><a href="https://github.com/portabilis/i-educar" target=_blank>i-Educar</a></b> via educar_transferencia_tipo_cad.php (With PoC and Screenshots).</p>]]></description>
 </item><item>
+    <title>CVE-2025-9723</title>
+    <link>http://localhost:1313/cve-2025-9723/</link>
+    <pubDate>Sun, 31 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9723/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-9723/CVE-2025-9723.png" referrerpolicy="no-referrer">
+            </div><p>Stored XSS in i-Educar via educar_tipo_regime_cad.php (With PoC and Screenshots)</p>]]></description>
+</item><item>
     <title>CVE-2025-9652</title>
     <link>http://localhost:1313/cve-2025-9652/</link>
     <pubDate>Fri, 29 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -44,6 +52,14 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-9653/CVE-2025-9653.png" referrerpolicy="no-referrer">
             </div><p>How I Discovered Multiple <strong>Stored XSS</strong> in <b><a href="https://github.com/portabilis/i-educar" target=_blank>i-Educar</a></b> via educar_projeto_cad.php (With PoC and Screenshots).</p>]]></description>
+</item><item>
+    <title>CVE-2025-9724</title>
+    <link>http://localhost:1313/cve-2025-9724/</link>
+    <pubDate>Fri, 29 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9724/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-9724/CVE-2025-9724.png" referrerpolicy="no-referrer">
+            </div><p>How I Discovered Multiple <strong>Stored XSS</strong> in <b><a href="https://github.com/portabilis/i-educar" target=_blank>i-Educar</a></b> via educar_nivel_ensino_cad.php (With PoC and Screenshots).</p>]]></description>
 </item><item>
     <title>CVE-2025-9137</title>
     <link>http://localhost:1313/cve-2025-9137/</link>
@@ -68,21 +84,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-9143/CVE-2025-9143.png" referrerpolicy="no-referrer">
             </div><p>Three XSS in One Page? Scada-LTS Fails to Sanitize Inputs in <strong>Mailing List</strong> Settings</p>]]></description>
-</item><item>
-    <title>CVE-2025-9144</title>
-    <link>http://localhost:1313/cve-2025-9144/</link>
-    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9144/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-9144/CVE-2025-9144.png" referrerpolicy="no-referrer">
-            </div><p>Stored XSS in Scada-LTS: Input Validation Flaw in <strong>Publisher</strong> Name Field</p>]]></description>
-</item><item>
-    <title>CVE-2025-9145</title>
-    <link>http://localhost:1313/cve-2025-9145/</link>
-    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9145/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-9145/CVE-2025-9145.png" referrerpolicy="no-referrer">
-            </div><p>Stored XSS via <strong>SVG Upload Bypass</strong> in Scada-LTS</p>]]></description>
 </item></channel>
 </rss>

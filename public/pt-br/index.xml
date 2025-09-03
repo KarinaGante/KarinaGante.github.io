@@ -31,6 +31,14 @@
                 <img src="/images/CVE-2025-9722/CVE-2025-9722.png" referrerpolicy="no-referrer">
             </div><p>Como Descobri Múltiplas Falhas de <strong>XSS Armazenado</strong> no <b><a href="https://github.com/portabilis/i-educar" target=_blank>i-Educar</a></b> (Com PoC e Screenshots).</p>]]></description>
 </item><item>
+    <title>CVE-2025-9723</title>
+    <link>http://localhost:1313/pt-br/cve-2025-9723/</link>
+    <pubDate>Sun, 31 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-9723/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-9723/CVE-2025-9723.png" referrerpolicy="no-referrer">
+            </div><p>XSS Armazenado no i-Educar via educar_tipo_regime_cad.php (Com PoC e Screenshots)</p>]]></description>
+</item><item>
     <title>CVE-2025-9652</title>
     <link>http://localhost:1313/pt-br/cve-2025-9652/</link>
     <pubDate>Fri, 29 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -45,6 +53,14 @@
                         <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-9653/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-9653/CVE-2025-9653.png" referrerpolicy="no-referrer">
+            </div><p>Como Descobri Múltiplas Falhas de <strong>XSS Armazenado</strong> no <b><a href="https://github.com/portabilis/i-educar" target=_blank>i-Educar</a></b> (Com PoC e Screenshots).</p>]]></description>
+</item><item>
+    <title>CVE-2025-9724</title>
+    <link>http://localhost:1313/pt-br/cve-2025-9724/</link>
+    <pubDate>Fri, 29 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-9724/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-9724/CVE-2025-9724.png" referrerpolicy="no-referrer">
             </div><p>Como Descobri Múltiplas Falhas de <strong>XSS Armazenado</strong> no <b><a href="https://github.com/portabilis/i-educar" target=_blank>i-Educar</a></b> (Com PoC e Screenshots).</p>]]></description>
 </item><item>
     <title>CVE-2025-9531</title>
@@ -70,21 +86,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-9137/CVE-2025-9137.png" referrerpolicy="no-referrer">
             </div><p>Como encontrei um XSS armazenado no Scada-LTS via <strong>scheduled_events.shtm</strong> (com PoC e Capturas de Tela)</p>]]></description>
-</item><item>
-    <title>CVE-2025-9138</title>
-    <link>http://localhost:1313/pt-br/cve-2025-9138/</link>
-    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-9138/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-9138/CVE-2025-9138.png" referrerpolicy="no-referrer">
-            </div><p>Como encontrei um XSS armazenado no Scada-LTS via <strong>Path</strong> parâmetro <strong>pointHierarchy/new/</strong> (com PoC e Capturas de Tela)</p>]]></description>
-</item><item>
-    <title>CVE-2025-9143</title>
-    <link>http://localhost:1313/pt-br/cve-2025-9143/</link>
-    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/pt-br/cve-2025-9143/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-9143/CVE-2025-9143.png" referrerpolicy="no-referrer">
-            </div><p>Três XSS em uma página? O Scada-LTS falha ao sanitizar entradas nas configurações de <strong>mailing_lists.shtm</strong></p>]]></description>
 </item></channel>
 </rss>
