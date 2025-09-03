@@ -40,6 +40,20 @@
     </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9723/</guid>
     <description><![CDATA[]]></description>
 </item><item>
+    <title>CVE-2025-9724</title>
+    <link>http://localhost:1313/pt-br/tags/cve-2025-9724/</link>
+    <pubDate>Sun, 31 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9724/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>CVE-2025-9738</title>
+    <link>http://localhost:1313/pt-br/tags/cve-2025-9738/</link>
+    <pubDate>Sun, 31 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+        <name>Karina Gante</name>
+    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9738/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>I-Educar</title>
     <link>http://localhost:1313/pt-br/tags/i-educar/</link>
     <pubDate>Sun, 31 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -59,20 +73,6 @@
     <pubDate>Sun, 31 Aug 2025 21:29:01 &#43;0800</pubDate><author>
         <name>Karina Gante</name>
     </author><guid>http://localhost:1313/pt-br/tags/xss-armazenado/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>CVE-2025-9652</title>
-    <link>http://localhost:1313/pt-br/tags/cve-2025-9652/</link>
-    <pubDate>Fri, 29 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9652/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>CVE-2025-9653</title>
-    <link>http://localhost:1313/pt-br/tags/cve-2025-9653/</link>
-    <pubDate>Fri, 29 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-        <name>Karina Gante</name>
-    </author><guid>http://localhost:1313/pt-br/tags/cve-2025-9653/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

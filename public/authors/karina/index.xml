@@ -37,6 +37,22 @@
                 <img src="/images/CVE-2025-9723/CVE-2025-9723.png" referrerpolicy="no-referrer">
             </div><p>Stored XSS in i-Educar via educar_tipo_regime_cad.php (With PoC and Screenshots)</p>]]></description>
 </item><item>
+    <title>CVE-2025-9724</title>
+    <link>http://localhost:1313/cve-2025-9724/</link>
+    <pubDate>Sun, 31 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9724/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-9724/CVE-2025-9724.png" referrerpolicy="no-referrer">
+            </div><p>How I Discovered Multiple <strong>Stored XSS</strong> in <b><a href="https://github.com/portabilis/i-educar" target=_blank>i-Educar</a></b> via educar_nivel_ensino_cad.php (With PoC and Screenshots).</p>]]></description>
+</item><item>
+    <title>CVE-2025-9738</title>
+    <link>http://localhost:1313/cve-2025-9738/</link>
+    <pubDate>Sun, 31 Aug 2025 21:29:01 &#43;0800</pubDate><author>
+                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9738/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/CVE-2025-9738/CVE-2025-9738.png" referrerpolicy="no-referrer">
+            </div><p>Stored XSS in i-Educar via educar_tipo_ensino_cad.php (With PoC and Screenshots)</p>]]></description>
+</item><item>
     <title>CVE-2025-9652</title>
     <link>http://localhost:1313/cve-2025-9652/</link>
     <pubDate>Fri, 29 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -53,14 +69,6 @@
                 <img src="/images/CVE-2025-9653/CVE-2025-9653.png" referrerpolicy="no-referrer">
             </div><p>How I Discovered Multiple <strong>Stored XSS</strong> in <b><a href="https://github.com/portabilis/i-educar" target=_blank>i-Educar</a></b> via educar_projeto_cad.php (With PoC and Screenshots).</p>]]></description>
 </item><item>
-    <title>CVE-2025-9724</title>
-    <link>http://localhost:1313/cve-2025-9724/</link>
-    <pubDate>Fri, 29 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9724/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-9724/CVE-2025-9724.png" referrerpolicy="no-referrer">
-            </div><p>How I Discovered Multiple <strong>Stored XSS</strong> in <b><a href="https://github.com/portabilis/i-educar" target=_blank>i-Educar</a></b> via educar_nivel_ensino_cad.php (With PoC and Screenshots).</p>]]></description>
-</item><item>
     <title>CVE-2025-9531</title>
     <link>http://localhost:1313/cve-2025-9531/</link>
     <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
@@ -76,13 +84,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-9532/CVE-2025-9532.png" referrerpolicy="no-referrer">
             </div><p>Exploring <strong>Boolean-Based SQL Injection</strong> in i-Educar with <b><a href="https://github.com/sqlmapproject/sqlmap" target=_blank>sqlmap</a></b> and Database Extraction.</p>]]></description>
-</item><item>
-    <title>CVE-2025-9137</title>
-    <link>http://localhost:1313/cve-2025-9137/</link>
-    <pubDate>Wed, 20 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9137/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/CVE-2025-9137/CVE-2025-9137.png" referrerpolicy="no-referrer">
-            </div><p>How I Found a Stored XSS in Scada-LTS via <strong>scheduled_events.shtm</strong> (With PoC and Screenshots)</p>]]></description>
 </item></channel>
 </rss>
