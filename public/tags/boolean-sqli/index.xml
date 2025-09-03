@@ -1,16 +1,3 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Boolean SQLi - Tag - Karina Gante</title>
-        <link>http://localhost:1313/tags/boolean-sqli/</link>
-        <description>Boolean SQLi - Tag - Karina Gante</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>karina.gante1@gmail.com (Karina Gante)</managingEditor>
-            <webMaster>karina.gante1@gmail.com (Karina Gante)</webMaster><lastBuildDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/boolean-sqli/" rel="self" type="application/rss+xml" /><item>
-    <title>CVE-2025-9532</title>
-    <link>http://localhost:1313/cve-2025-9532/</link>
-    <pubDate>Wed, 27 Aug 2025 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9532/</guid>
-    <description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Boolean SQLi - Tag - Karina Gante</title><link>http://localhost:1313/tags/boolean-sqli/</link><description>Boolean SQLi - Tag - Karina Gante</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>karina.gante1@gmail.com (Karina Gante)</managingEditor><webMaster>karina.gante1@gmail.com (Karina Gante)</webMaster><lastBuildDate>Wed, 27 Aug 2025 21:29:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/boolean-sqli/" rel="self" type="application/rss+xml"/><item><title>CVE-2025-9532</title><link>http://localhost:1313/cve-2025-9532/</link><pubDate>Wed, 27 Aug 2025 21:29:01 +0800</pubDate><author><name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/cve-2025-9532/</guid><description><![CDATA[<div class="featured-image">
                 <img src="/images/CVE-2025-9532/CVE-2025-9532.png" referrerpolicy="no-referrer">
-            </div><p>Exploring <strong>Boolean-Based SQL Injection</strong> in i-Educar with <b><a href="https://github.com/sqlmapproject/sqlmap" target=_blank>sqlmap</a></b> and Database Extraction.</p>]]></description>
-</item></channel>
-</rss>
+            </div><p>Exploring <strong>Boolean-Based SQL Injection</strong> in i-Educar with <b><a href="https://github.com/sqlmapproject/sqlmap" target=_blank>sqlmap</a></b> and Database Extraction.</p>]]></description></item></channel></rss>

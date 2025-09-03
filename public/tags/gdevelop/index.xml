@@ -1,24 +1,5 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>GDevelop - Tag - Karina Gante</title>
-        <link>http://localhost:1313/tags/gdevelop/</link>
-        <description>GDevelop - Tag - Karina Gante</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>karina.gante1@gmail.com (Karina Gante)</managingEditor>
-            <webMaster>karina.gante1@gmail.com (Karina Gante)</webMaster><lastBuildDate>Fri, 15 Dec 2023 21:29:01 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/gdevelop/" rel="self" type="application/rss+xml" /><item>
-    <title>iWant 2.0</title>
-    <link>http://localhost:1313/iwant2.0/</link>
-    <pubDate>Fri, 15 Dec 2023 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/iwant2.0/</guid>
-    <description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>GDevelop - Tag - Karina Gante</title><link>http://localhost:1313/tags/gdevelop/</link><description>GDevelop - Tag - Karina Gante</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>karina.gante1@gmail.com (Karina Gante)</managingEditor><webMaster>karina.gante1@gmail.com (Karina Gante)</webMaster><lastBuildDate>Fri, 15 Dec 2023 21:29:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/gdevelop/" rel="self" type="application/rss+xml"/><item><title>iWant 2.0</title><link>http://localhost:1313/iwant2.0/</link><pubDate>Fri, 15 Dec 2023 21:29:01 +0800</pubDate><author><name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/iwant2.0/</guid><description><![CDATA[<div class="featured-image">
                 <img src="/images/iWant2.0/iwant2.0.png" referrerpolicy="no-referrer">
-            </div><p>iWant 2.0 is an assistive app for autistic users, built with Thunkable and featured at key academic events.</p>]]></description>
-</item><item>
-    <title>iWant</title>
-    <link>http://localhost:1313/iwant/</link>
-    <pubDate>Fri, 12 Nov 2021 21:29:01 &#43;0800</pubDate><author>
-                        <name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/iwant/</guid>
-    <description><![CDATA[<div class="featured-image">
+            </div><p>iWant 2.0 is an assistive app for autistic users, built with Thunkable and featured at key academic events.</p>]]></description></item><item><title>iWant</title><link>http://localhost:1313/iwant/</link><pubDate>Fri, 12 Nov 2021 21:29:01 +0800</pubDate><author><name>Karina</name><uri>https://github.com/KarinaGante</uri></author><guid>http://localhost:1313/iwant/</guid><description><![CDATA[<div class="featured-image">
                 <img src="/images/iWant/iwant.png" referrerpolicy="no-referrer">
-            </div><p>AAC app built with GDevelop to aid communication for autistic users.</p>]]></description>
-</item></channel>
-</rss>
+            </div><p>AAC app built with GDevelop to aid communication for autistic users.</p>]]></description></item></channel></rss>
