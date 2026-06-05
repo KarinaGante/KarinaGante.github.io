@@ -1,0 +1,30 @@
+---
+import { getCollection } from "astro:content";
+import Card from "./Card.astro";
+import Icon from "./Icon.astro";
+
+const socials = await getCollection("socials");
+---
+
+<Card>
+    <h3 class="no-mt">Socials</h3>
+
+    <ul class="overview-list">
+        {
+            socials.map((item) => (
+                <li>
+                    <a href={item.data.link} class="socials-link">
+                        <Icon
+                            type={item.data.icon.type}
+                            name={item.data.icon.name as any}
+                            width={24}
+                            height={24}
+                            class="glow-icon"
+                        />
+                        <span>{item.data.text}</span>
+                    </a>
+                </li>
+            ))
+        }
+    </ul>
+</Card>

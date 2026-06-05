@@ -1,0 +1,55 @@
+[
+	{
+		"id": 1,
+		"icon": {
+			"type": "lucide",
+			"name": "award"
+		},
+		"type": "lucide",
+		"text": "30 CVEs Published"
+	},
+	{
+		"id": 2,
+		"icon": {
+			"type": "lucide",
+			"name": "tv-minimal-play"
+		},
+		"type": "lucide",
+		"text": "Content Creator"
+	},
+	{
+		"id": 3,
+		"icon": {
+			"type": "lucide",
+			"name": "map-pinned"
+		},
+		"text": "Living in Brazil"
+	},
+	{
+		"id": 4,
+		"icon": {
+			"type": "lucide",
+			"name": "crosshair"
+		},
+		"type": "lucide",
+		"text": "CVE Hunter"
+	},
+	{
+		"id": 5,
+		"icon": {
+			"type": "lucide",
+			"name": "dog"
+		},
+		"type": "lucide",
+		"text": "Pet Lover"
+	},
+	{
+		"id": 6,
+		"icon": {
+			"type": "lucide",
+			"name": "gamepad-2"
+		},
+		"type": "lucide",
+		"text": "Gamer"
+	}
+]

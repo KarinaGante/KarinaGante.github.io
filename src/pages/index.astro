@@ -1,0 +1,170 @@
+---
+import "../styles/index.css";
+import "../styles/article-list.css";
+
+import { getCollection, getEntry, render } from "astro:content";
+import { name, openGraph } from "spectre:globals";
+import ProfilePicture from "../assets/profile.png";
+import Card from "../components/Card.astro";
+import Icon from "../components/Icon.astro";
+import ImageGlow from "../components/ImageGlow.astro";
+import Socials from "../components/Socials.astro";
+import Layout from "../layouts/Layout.astro";
+
+const [posts, about, workExperience, quickInfo, socials] =
+    await Promise.all([
+        getCollection("posts", (post) => post.data.draft !== true),
+        getEntry("other", "about"),
+        getCollection("workExperience"),
+        getCollection("quickInfo"),
+        getCollection("socials"),
+    ]);
+
+const tagOrder = [
+    "CVEs",
+    "Bug Bounty",
+    "CTF Write Ups",
+    "XSS",
+    "SQLi",
+    "SVG Bypass",
+    "i-Educar",
+    "Accessibility",
+    "Web Development",
+    "Game Development",
+    "Data Analytics",
+];
+
+const tags = posts.flatMap((post) => post.data.tags.map((tag) => tag.id));
+
+const sortedTags = Array.from(new Set(tags)).sort((a, b) => {
+    const aIndex = tagOrder.indexOf(a);
+    const bIndex = tagOrder.indexOf(b);
+
+    if (aIndex === -1) return 1;
+    if (bIndex === -1) return -1;
+
+    return aIndex - bIndex;
+});
+
+const { Content: About } = await render(about!);
+---
+
+<Layout
+    title={openGraph.home.title || name}
+    description={openGraph.home.description}
+    pagefindIgnore
+>
+    <div class="layout-grid-left" slot="left">
+        <Card class="flex-col-card">
+            <ImageGlow
+                quality={100}
+                width={120}
+                height={120}
+                src={ProfilePicture}
+                alt="Profile picture"
+                loading="eager"
+            />
+
+            <h2>{name}</h2>
+
+            <ul class="overview-list">
+                {
+                    quickInfo.map((info) => (
+                        <li>
+                            <Icon
+                                type={info.data.icon.type}
+                                name={info.data.icon.name as any}
+                                width={24}
+                                height={24}
+                                class="glow-icon"
+                            />
+                            <span>{info.data.text}</span>
+                        </li>
+                    ))
+                }
+            </ul>
+        </Card>
+        <Card class="flex-col-card">
+            <h2 class="no-mt">Filter</h2>
+
+            <ul class="tags-list">
+                {
+                    sortedTags.map((tag) => (
+                        <li>
+                            <a class="blog-tag" href="/" data-tag={tag}>
+                                {tag}
+                            </a>
+                        </li>
+                    ))
+                }
+            </ul>
+        </Card>
+
+        <Socials />
+    </div>
+    <div class="layout-grid-right" slot="right">
+        <Card>
+            <div class="header-container">
+                <Icon
+                    type="lucide"
+                    name="milestone"
+                    width={24}
+                    height={24}
+                    class="glow-icon"
+                />
+                <h2>Posts</h2>
+            </div>
+
+            <div class="content-container">
+                {
+                    posts
+                        .sort(
+                            (a, b) =>
+                                b.data.createdAt.getTime() -
+                                a.data.createdAt.getTime(),
+                        )
+                        .map((post) => (
+                            <a
+                                href={`/${post.id}`}
+                                class="post-container"
+                                data-tags={post.data.tags
+                                    .map((tag) => tag.id)
+                                    .join(",")}
+                            >
+                                <div class="post-layout">
+                                    <div class="post-text">
+                                        <div class="post-header">
+                                            <h3>{post.data.title}</h3>
+                                        </div>
+
+                                        <span>{post.data.description}</span>
+
+                                        <div class="published-date">
+                                            $ published on{" "}
+                                            {post.data.createdAt.toLocaleDateString(
+                                                "en-US",
+                                                {
+                                                    month: "long",
+                                                    day: "numeric",
+                                                    year: "numeric",
+                                                },
+                                            )}
+                                        </div>
+                                    </div>
+
+                                    {post.data.image && (
+                                        <img
+                                            src={post.data.image.src}
+                                            alt={post.data.title}
+                                            class="post-thumbnail"
+                                        />
+                                    )}
+                                </div>
+                            </a>
+                        ))
+                }
+            </div>
+        </Card>
+    </div>
+</Layout>
+<script src="../scripts/post-filter.ts"></script>
