@@ -1,0 +1,109 @@
+---
+title: "Contributing a Dracula Theme to IPED"
+description: "Implementing a Dracula-inspired dark theme and collaborating with the maintainers to improve the application's visual experience."
+image: "../assets/IPED-DraculaTheme.png"
+createdAt: 11-16-2026
+draft: false
+tags:
+  - Digital Forensics
+  - Dracula Theme
+  - IPED
+---
+
+## Introduction
+
+While exploring the [IPED](https://github.com/sepinf-inc/IPED) project, an open-source digital forensic tool, I saw an opportunity to contribute something that could improve the application's visual experience: a Dracula theme.
+
+As a fan of the Dracula color scheme, I decided to implement it as a new UI theme, allowing users to choose it alongside the existing Light and Dark themes.
+
+What started as a visual customization became my first contribution to the official IPED repository.
+
+In this post, I'll share how I implemented the theme, the technologies involved, the testing process, and my experience collaborating with the project's maintainer.
+
+---
+
+## What is IPED?
+
+The [IPED](https://github.com/sepinf-inc/IPED) (***Indexador e Processador de Evidências Digitais***, or ***Digital Evidence Processor and Indexer***) is an open-source digital forensics tool developed by experts from the **Brazilian Federal Police** since 2012.
+
+Originally created to address the challenges of processing and analyzing large volumes of digital evidence in criminal investigations, [IPED](https://github.com/sepinf-inc/IPED) became an important part of Brazil's digital forensics landscape. 
+
+The tool enables forensic examiners to process, index, search, and analyze large collections of digital evidence, including files recovered from computers, storage devices, and other digital media.
+
+Although developed in Brazil, [IPED](https://github.com/sepinf-inc/IPED) is not limited to Brazilian investigations. Its open-source availability has helped expand its adoption beyond the country, making it a tool of international relevance in the digital forensics community.
+
+Today, [IPED](https://github.com/sepinf-inc/IPED) continues to be maintained and improved through contributions from its developers and the open-source community.
+
+---
+
+## The Dracula Theme
+
+The goal was to introduce the official [Dracula](https://draculatheme.com/) color palette into [IPED](https://github.com/sepinf-inc/IPED) while preserving the existing themes.
+
+The implementation uses Java Swing and Nimbus, following the application's existing theme architecture.
+
+The theme also customizes several interface elements, including tables, viewers, graphs, trees, filters, and docking panels.
+
+---
+
+## Implementation
+
+The implementation involved modifying the application's existing theme structure.
+
+The main changes included:
+
+> *» `DraculaTheme.java`*
+>
+> Created a new theme class extending the existing `Theme` class, defining the Dracula palette and applying colors to the supported UI components.
+
+> *» `ThemeManager.java`*
+>
+> Registered the new theme in the theme manager, making it available alongside the existing Light and Dark themes.
+
+### Localization
+
+Added the Dracula theme name to all six desktop localization files:
+
+> » English, Brazilian Portuguese, German, Spanish, French, Italian
+
+This allowed the theme to appear correctly in the application's interface regardless of the selected language.
+
+> You can access the full Pull Request here:
+> 
+> ***[`Add Dracula theme PR #3070`](https://github.com/sepinf-inc/IPED/pull/3070)***
+
+---
+
+## Final Result
+
+The Dracula theme was successfully merged into the official [IPED](https://github.com/sepinf-inc/IPED) repository!
+
+The contribution introduced a new visual option while preserving the application's existing themes and functionality.
+
+> Here are some screenshots of the final implementation:
+
+- Select the `Dracula Theme`:
+
+<img
+  src="/img/IPED-DraculaTheme/1.png"
+/>
+
+- `Dracula Theme` UI:
+
+<img
+  src="/img/IPED-DraculaTheme/3.png"
+/>
+
+---
+
+## Credits
+
+Special thanks to [@wladimirleite](https://github.com/wladimirleite) for reviewing the contribution, providing feedback, and making additional improvements to the application.
+
+I'm glad I could contribute to a project that plays an important role in the digital forensics community.
+
+---
+
+*Contributed with 💜 by Karina Gante.*
+
+[LinkedIn](https://www.linkedin.com/in/karina-gante/) ✿ [GitHub](https://github.com/KarinaGante/) ✿ [Portfolio](https://karinagante.github.io/)
