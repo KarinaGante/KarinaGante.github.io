@@ -145,7 +145,7 @@ export default function integration(
 		"spectre-theme-globals",
 		`
     export const name = ${JSON.stringify(validatedOptions.name)};
-    export const themeColor = ${JSON.stringify(validatedOptions.themeColor ?? "#8c5cf5")};
+    export const themeColor = ${JSON.stringify(validatedOptions.themeColor ?? "#AF01E8")};
     export const twitterHandle = ${JSON.stringify(validatedOptions.twitterHandle)};
     export const openGraph = {
       home: ${JSON.stringify(validatedOptions.openGraph.home)},
