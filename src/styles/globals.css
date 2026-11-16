@@ -6,9 +6,9 @@
 :root {
     --primary: #AF01E8;
     /* Needed for some hover effects. This is just the R, G and B values of the hex color above */
-    --primary-rgb: 140, 92, 245;
+    --primary-rgb: 175, 1, 232;
     /* Used for links */
-    --primary-light: #a277ff;
+    --primary-light: #D45AFF;
     --primary-lightest: #c2a8fd;
     --radius: 10px;
 }
