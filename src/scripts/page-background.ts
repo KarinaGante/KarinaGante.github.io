@@ -71,12 +71,12 @@ class PageBackground {
    */
   private initBackground = () => {
     let text: string =
-      document.title.toLowerCase().split(" | ")[0].replace(/\s/g, "_") ||
+      document.title.split(" | ")[0].replace(/\s/g, "-") ||
       "noka";
 
     // Add additional underscore to separate words
-    if (text.includes("_")) {
-      text += "_";
+    if (text.includes("-")) {
+      text += "-";
     }
 
     // Letters are 17px wide and 35px tall

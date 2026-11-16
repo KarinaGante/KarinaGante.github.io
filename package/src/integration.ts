@@ -88,7 +88,7 @@ export const optionsSchema = z.object({
 	 */
 	name: z.string(),
 	/**
-	 * The theme color of the site. Optional. Defaults to `#8c5cf5`.
+	 * The theme color of the site. Optional. Defaults to `#AF01E8`.
 	 */
 	themeColor: z.string().optional(),
 	/**
