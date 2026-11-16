@@ -11,14 +11,13 @@ import ImageGlow from "../components/ImageGlow.astro";
 import Socials from "../components/Socials.astro";
 import Layout from "../layouts/Layout.astro";
 
-const [posts, about, workExperience, quickInfo, socials] =
-    await Promise.all([
-        getCollection("posts", (post) => post.data.draft !== true),
-        getEntry("other", "about"),
-        getCollection("workExperience"),
-        getCollection("quickInfo"),
-        getCollection("socials"),
-    ]);
+const [posts, about, workExperience, quickInfo, socials] = await Promise.all([
+    getCollection("posts", (post) => post.data.draft !== true),
+    getEntry("other", "about"),
+    getCollection("workExperience"),
+    getCollection("quickInfo"),
+    getCollection("socials"),
+]);
 
 const tagOrder = [
     "CVEs",
@@ -28,6 +27,8 @@ const tagOrder = [
     "SQLi",
     "SVG Bypass",
     "i-Educar",
+    "Digital Forensics",
+    "IPED",
     "Accessibility",
     "Web Development",
     "Game Development",
@@ -68,35 +69,31 @@ const { Content: About } = await render(about!);
             <h2>{name}</h2>
 
             <ul class="overview-list">
-                {
-                    quickInfo.map((info) => (
-                        <li>
-                            <Icon
-                                type={info.data.icon.type}
-                                name={info.data.icon.name as any}
-                                width={24}
-                                height={24}
-                                class="glow-icon"
-                            />
-                            <span>{info.data.text}</span>
-                        </li>
-                    ))
-                }
+                {quickInfo.map((info) => (
+                    <li>
+                        <Icon
+                            type={info.data.icon.type}
+                            name={info.data.icon.name as any}
+                            width={24}
+                            height={24}
+                            class="glow-icon"
+                        />
+                        <span>{info.data.text}</span>
+                    </li>
+                ))}
             </ul>
         </Card>
         <Card class="flex-col-card">
             <h2 class="no-mt">Filter</h2>
 
             <ul class="tags-list">
-                {
-                    sortedTags.map((tag) => (
-                        <li>
-                            <a class="blog-tag" href="/" data-tag={tag}>
-                                {tag}
-                            </a>
-                        </li>
-                    ))
-                }
+                {sortedTags.map((tag) => (
+                    <li>
+                        <a class="blog-tag" href="/" data-tag={tag}>
+                            {tag}
+                        </a>
+                    </li>
+                ))}
             </ul>
         </Card>
 
@@ -116,53 +113,51 @@ const { Content: About } = await render(about!);
             </div>
 
             <div class="content-container">
-                {
-                    posts
-                        .sort(
-                            (a, b) =>
-                                b.data.createdAt.getTime() -
-                                a.data.createdAt.getTime(),
-                        )
-                        .map((post) => (
-                            <a
-                                href={`/${post.id}`}
-                                class="post-container"
-                                data-tags={post.data.tags
-                                    .map((tag) => tag.id)
-                                    .join(",")}
-                            >
-                                <div class="post-layout">
-                                    <div class="post-text">
-                                        <div class="post-header">
-                                            <h3>{post.data.title}</h3>
-                                        </div>
-
-                                        <span>{post.data.description}</span>
-
-                                        <div class="published-date">
-                                            $ published on{" "}
-                                            {post.data.createdAt.toLocaleDateString(
-                                                "en-US",
-                                                {
-                                                    month: "long",
-                                                    day: "numeric",
-                                                    year: "numeric",
-                                                },
-                                            )}
-                                        </div>
+                {posts
+                    .sort(
+                        (a, b) =>
+                            b.data.createdAt.getTime() -
+                            a.data.createdAt.getTime(),
+                    )
+                    .map((post) => (
+                        <a
+                            href={`/${post.id}`}
+                            class="post-container"
+                            data-tags={post.data.tags
+                                .map((tag) => tag.id)
+                                .join(",")}
+                        >
+                            <div class="post-layout">
+                                <div class="post-text">
+                                    <div class="post-header">
+                                        <h3>{post.data.title}</h3>
                                     </div>
 
-                                    {post.data.image && (
-                                        <img
-                                            src={post.data.image.src}
-                                            alt={post.data.title}
-                                            class="post-thumbnail"
-                                        />
-                                    )}
+                                    <span>{post.data.description}</span>
+
+                                    <div class="published-date">
+                                        $ published on{" "}
+                                        {post.data.createdAt.toLocaleDateString(
+                                            "en-US",
+                                            {
+                                                month: "long",
+                                                day: "numeric",
+                                                year: "numeric",
+                                            },
+                                        )}
+                                    </div>
                                 </div>
-                            </a>
-                        ))
-                }
+
+                                {post.data.image && (
+                                    <img
+                                        src={post.data.image.src}
+                                        alt={post.data.title}
+                                        class="post-thumbnail"
+                                    />
+                                )}
+                            </div>
+                        </a>
+                    ))}
             </div>
         </Card>
     </div>
